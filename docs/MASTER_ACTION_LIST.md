@@ -12,8 +12,8 @@ What needs to happen, who does it, and when.
 | 1 | **Identify 3 founding members** | Sebastian | ASAP | 🔴 BLOCKED | Need names + Portuguese NIFs |
 | 2 | **Get Portuguese NIFs** | Founders | ASAP | 🔴 BLOCKED | Step 1 of registration |
 | 3 | **Find prototype site** | Sebastian + network | ASAP | 🔴 BLOCKED | 200m² flat, Lagos area |
-| 4 | **Approve + send outreach emails** | Sebastian + Miha | ASAP | 🟡 READY | 4 emails drafted with verified contacts |
-| 5 | **Hire grant writer** | Sebastian | 15 Jun 2026 | 🟡 IN PROGRESS | Job description ready; need to advertise |
+| 4 | **Approve + send outreach emails** | Sebastian + Miha | AFTER PROTOTYPE | 🟡 DEFERRED | User directive: wait until post-prototype + panel testing |
+| 5 | **Hire grant writer** | Sebastian | AFTER PROTOTYPE | 🟡 DEFERRED | User deferred until after prototype build |
 | 6 | **Register non-profit** | Sebastian + lawyer | 30 Jun 2026 | 🟡 IN PROGRESS | Statutes ready; need 3 founders first |
 | 7 | **Open bank account** | Treasurer (TBD) | 15 Jul 2026 | 🔴 BLOCKED | Need NIPC from registration |
 
