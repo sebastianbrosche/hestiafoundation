@@ -1,0 +1,684 @@
+================================================================================
+APPENDIX N: THE HESTIA FOUNDATION
+EU Grant Strategy and Institutional Roadmap
+hestiafoundation.org
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+
+The Hestia Foundation is the institutional vehicle for the RCP housing system
+described in this thesis. It exists to research, document, certify, and disseminate
+a low-cost self-build housing methodology that directly addresses three of the EU's
+most urgent policy priorities: affordable housing supply, construction sector
+innovation, and low-carbon building systems.
+
+The EU currently has more money available for affordable housing innovation than at
+any point in its history. The European Commission has committed €43 billion under
+the 2021-2027 budget period for housing, with €10 billion additional in 2026-2027,
+and €375 billion mobilised from partner financial institutions by 2029 (European
+Commission, 2026). The first-ever EU heads of state summit on housing is scheduled
+for 2026.
+
+The Hestia Foundation is positioned at the exact intersection of every programme
+the EU is currently funding.
+
+This appendix describes:
+1. The EU funding landscape and where the RCP system fits
+2. The Foundation structure and legal setup
+3. The prototype build strategy
+4. The grant application sequence
+5. The partnership strategy
+6. The language and framing that wins grants
+
+
+================================================================================
+PART ONE: THE EU FUNDING LANDSCAPE
+================================================================================
+
+1.1 The Housing Crisis as EU Policy Priority
+
+The European Commission's own data confirms the scale of the problem the Hestia
+Foundation addresses:
+
+— House prices across the EU have risen by over 60 percent since 2013
+— Rents have risen approximately 20 percent, with urban rents climbing higher
+— Only 6 to 7 percent of EU housing stock is social housing
+— 20 percent of homes remain unoccupied
+— Short-term rentals surged 93 percent between 2018 and 2024
+— Europe needs to build more than 2 million homes per year — approximately
+  650,000 more annually than the 1.6 million currently built
+— Meeting this demand requires investment of approximately €153 billion per year
+  (European Commission, 2026)
+
+The Commission's European Affordable Housing Plan explicitly calls for:
+— Innovation in the construction sector
+— Simplified and digitalised permitting procedures
+— Accelerated development of harmonised standards for innovative construction
+  products, materials and methods
+— Scaling up of innovative building solutions through the New European Bauhaus
+
+The RCP system addresses every single one of these goals simultaneously.
+
+1.2 The Three Funding Pillars
+
+Three EU programmes form the core funding strategy for the Hestia Foundation.
+Each addresses a different phase of development.
+
+PILLAR ONE: NEW EUROPEAN BAUHAUS (NEB)
+Best fit for the Hestia Foundation at every stage.
+
+The NEB Facility 2025-2027 has a yearly indicative budget of €120 million for its
+Research and Innovation component, anchored in Horizon Europe. It funds the full
+cycle from research to testing to demonstration to deployment.
+
+The NEB's stated values are sustainability, inclusivity, and beauty. The Hestia
+Home is a literal embodiment of all three simultaneously. The EU's own framing —
+"beautiful, sustainable and affordable" — matches the Hestia Home's H2 heading
+word for word.
+
+Current open NEB calls (deadline 01 December 2026):
+
+HORIZON-NEB-2026-01-REGEN-01
+"Sustainable, inclusive, affordable and beautiful solutions for thermal comfort
+in buildings"
+Budget: €12 million total. Expected award per project: €4 million.
+Direct fit: The Hestia Home's passive cooling system (Canadian well, solar chimney,
+sand battery, insulated roof) is a complete answer to this call. The RCP wall's
+thermal performance at 0.40 W/m²K versus conventional masonry at 1.8 W/m²K is
+the core demonstration.
+
+HORIZON-NEB-2026-01-PARTICIPATION-01
+"Addressing homelessness through housing-led approaches aligned with NEB values"
+Budget: €12.6 million total. Expected award: €6.3 million.
+Direct fit: The RCP system is the lowest-cost route to permanent housing for
+vulnerable populations. The community build model (barn-raising, grassroots
+movement) aligns with the NEB's emphasis on community-led approaches.
+
+Additional NEB calls for reuse of vacant spaces, sustainable maintenance, and
+neighbourhood spatial design — all open with December 2026 deadlines.
+
+NEB PRIZES AND BOOST 2026 (immediate opportunities):
+— NEB Prizes 2026: Up to €20,000 per winning project. 13 winners total.
+  Criteria: sustainability, inclusivity, quality of life.
+— NEB Boost 2026: €30,000 per project. 20 winners. Must be in rural settings
+  or communities under 20,000 residents.
+  Criteria: circularity, carbon neutrality, affordable housing, rural regeneration.
+
+The Algarve Lagos location qualifies for the NEB Boost. A completed prototype
+with documentation, thermal performance data, and cost verification is a
+competitive entry for both. These are achievable in 2026 without consortium
+partners.
+
+PILLAR TWO: HORIZON EUROPE
+For the larger structural research questions.
+
+Relevant clusters:
+— Cluster 5: Climate, Energy and Mobility
+— Cluster 4: Digital, Industry and Space (construction digitisation)
+— Social Platform on Construction (Built4People partnership)
+
+Key framing for Horizon Europe:
+— Innovative construction systems with reduced labour dependency
+— Circular building materials (upcycled industrial components)
+— Climate-resilient housing at scale
+— Digital fabrication and assembly protocols
+— Community-led construction as social innovation
+
+Typical Horizon Europe grants: €2 million to €8 million per project.
+Consortium requirement: minimum 3 partners from different EU countries.
+
+PILLAR THREE: LIFE PROGRAMME
+For the environmental and circular economy dimensions.
+
+The RCP system qualifies because:
+— Zero concrete in the standard build (concrete = 5%+ of global CO2)
+— Upcycled EPAL pallets (industrial surplus material)
+— OSB from timber industry offcuts
+— Natural insulation alternatives (hempcrete from Canhamor, Alentejo)
+— Off-grid energy as standard
+— Carbon storage in timber structure
+— Passive cooling eliminating air conditioning energy demand
+
+Each cubic metre of hempcrete used in an RCP variant sequesters approximately
+160 kg of CO2. A complete hempcrete-filled RCP house is demonstrably carbon
+negative.
+
+LIFE grants typically €500,000 to €3 million. Consortium preferred but not
+always required for smaller projects.
+
+1.3 Secondary Funding Sources
+
+INTERREG EUROPE / INTERREG NEXT PORTUGAL-SPAIN
+Cross-border regional innovation. Portugal + Spain qualification.
+Perfect for: Rural depopulation housing, sustainable tourism accommodation,
+community housing for agricultural workers.
+Typical grants: €500,000 to €2 million.
+
+EIC ACCELERATOR
+For the commercial company arm (not the foundation).
+Up to €2.5 million in grant + €15 million in equity investment.
+Requires: Significant innovation, scalability, market disruption potential.
+The RCP system as a licensed construction methodology qualifies for disruption framing.
+
+PORTUGAL 2030 / PRR (Plano de Recuperação e Resiliência)
+Portugal's national EU recovery fund. €13.9 billion total.
+Housing component: significant allocation for affordable housing innovation.
+Advantage: Portuguese foundation, Portuguese project, Portuguese problem.
+No consortium requirement for many instruments.
+
+FCT (Fundação para a Ciência e a Tecnologia)
+Portugal's national research foundation.
+Funds: Research projects, PhD programmes, post-doctoral research.
+Key opportunity: Fund the university laboratory testing of RCP panels through
+an FCT research grant with a Portuguese university partner.
+Typical grants: €50,000 to €500,000.
+
+ERASMUS+ / EUROPEAN SOLIDARITY CORPS
+For the educational delivery model.
+The Hestia Foundation's workshop training programme — teaching communities
+to build using the RCP system — qualifies as vocational education and training.
+Typical grants: €50,000 to €300,000 per project.
+
+
+================================================================================
+PART TWO: THE FOUNDATION STRUCTURE
+================================================================================
+
+2.1 The Dual Structure
+
+The recommended legal structure is a dual organisation:
+
+HESTIA FOUNDATION (nonprofit, hestiafoundation.org)
+Purpose: Research, standards development, education, pilot projects, grant
+applications, open source documentation, certification pathway.
+
+This is the entity that:
+— Applies for EU grants
+— Owns the research and documentation
+— Publishes the open source protocol
+— Partners with universities
+— Runs community workshops
+— Holds the CE marking application for the RCP assembly
+
+This structure is extremely common in EU innovation ecosystems. It allows grant
+funding (which requires nonprofit status for most instruments) while maintaining
+the ability to license the commercial application.
+
+HESTIA BUILD (for-profit, separate company)
+Purpose: Manufacturing, commercial panel production, licensing, house sales.
+This entity:
+— Licenses the protocol developed by the Foundation
+— Produces and sells RCP panels commercially
+— Builds and sells complete Hestia Homes
+— Generates revenue to partially fund the Foundation's research
+
+2.2 Foundation Setup in Portugal
+
+Portugal is the correct jurisdiction. Reasons:
+— The housing crisis is acute and well-documented
+— EU funding access is strong (Portugal 2030, PRR)
+— Alentejo and Algarve are priority rural development regions
+— Land is available for the prototype
+— Construction costs are lower than northern Europe
+— Prefabrication acceptance is growing (confirmed by Lopes, 2026)
+— The Portuguese government has confirmed VAT reduction to 6 percent on
+  affordable housing construction
+
+Foundation setup in Portugal: Approximately 4 to 6 weeks through a notary.
+Cost: Approximately €500 to €1,500 in notary and registration fees.
+
+2.3 The Founding Mission Statement
+
+The Hestia Foundation develops and disseminates open source construction
+systems that make permanent, beautiful, affordable, and off-grid family housing
+accessible to anyone with a few friends and a nail gun.
+
+We build on the shoulders of giants — EPAL Euro pallets, CE-marked OSB, and
+engineered I-joists are the infrastructure of global industry. We combine them
+with ancient materials wisdom and modern assembly protocols to produce family
+homes for €25,000 to €50,000 in materials. Our research is open source. Our
+methodology is freely shared. Our mission is to demonstrate that the EU housing
+crisis has an answer that is available today.
+
+Positioning keywords for grant applications:
+— Affordable modular housing
+— Community-led construction
+— Low-carbon building systems
+— Circular construction materials
+— Rural regeneration housing
+— Off-grid residential systems
+— Self-build empowerment
+— Construction labour independence
+— Innovative assembly-based housing
+— Digital fabrication and protocol-driven construction
+
+
+================================================================================
+PART THREE: THE PROTOTYPE BUILD STRATEGY
+================================================================================
+
+3.1 The Prototype as the Foundation's First Asset
+
+The single most important action the Hestia Foundation can take is to build one
+complete house, document everything, and publish all of it.
+
+Not a rendering. Not a CAD model. Not a thesis. A built, lived-in, measured,
+photographed, sensor-equipped, structurally tested house.
+
+This transforms the Foundation from a concept to a demonstrated technology. Every
+grant application, every university partnership, every municipality conversation,
+every media story becomes dramatically stronger with a real built house behind it.
+
+The prototype build is the cornerstone of everything that follows.
+
+3.2 What the Prototype Must Achieve
+
+The prototype must be built to demonstrate:
+
+STRUCTURAL PERFORMANCE:
+— Wall panels loaded to document actual deflection
+— Racking test: apply horizontal force to a complete wall assembly
+— Thermal performance: continuous temperature logging inside and outside over
+  one complete winter and one complete summer
+— Compare measured U-values against calculated values in this thesis
+
+COST DOCUMENTATION:
+— Every receipt photographed and catalogued
+— Total material cost verified against estimates in this thesis
+— Labour time documented by role
+— Professional fees documented
+
+BUILD TIME DOCUMENTATION:
+— Video documentation of complete build process
+— Verified total assembly time from first earth screw to weathertight shell
+
+SENSOR PERFORMANCE:
+— Wall cavity humidity sensors logging from installation
+— Smart home energy monitoring from move-in
+— Hot water system performance over 12 months
+— Solar PV production versus household consumption
+
+PEST AND DURABILITY:
+— Document salt installation in every panel base
+— Photograph and verify moisture meter readings at 6 and 12 months
+— Document whether any biological activity is detected in wall cavities
+
+3.3 The Prototype as a Grant Application
+
+A well-documented prototype build is itself a grant application. The NEB Boost
+2026 (€30,000) and NEB Prizes 2026 (€20,000) can be applied for during or
+immediately after the build. The prototype documentation package is the
+application. No complex consortium required. No years of lead time.
+
+The FCT research grant can be applied for to fund the university laboratory
+testing of RCP panels — using the prototype's documented panels as the test
+specimens. A Portuguese university partner converts the self-build documentation
+into an academic research programme with institutional legitimacy.
+
+3.4 The Documentation Package
+
+The prototype generates the following deliverables, all publishable as
+Foundation outputs:
+
+— Complete photographic build record (every nail, every panel, every layer)
+— Bill of materials with verified Portuguese retail prices
+— Assembly time log by operation
+— Structural test results
+— Thermal performance data (12-month logged)
+— Cost per square metre verified against market
+— Comparison against conventional Portuguese construction cost
+— Video documentary of the complete build (YouTube, educational)
+— Academic paper submitted to peer-reviewed journal (Construction and Building
+  Materials, Buildings, Sustainability)
+— Open source protocol published on hestiafoundation.org
+
+Each of these is a grant application asset. Each of them is also a media asset.
+Each of them is also an educational asset for the workshop programme.
+
+
+================================================================================
+PART FOUR: THE GRANT APPLICATION SEQUENCE
+================================================================================
+
+The sequence matters. Applying for large Horizon Europe grants before having
+a prototype, a partner, and a track record is premature. The correct sequence
+builds credibility and assets at each stage that unlock the next stage.
+
+PHASE ONE (2026 — NOW):
+Target: Foundation setup, prototype build, first small grants.
+
+Actions:
+1. Register Hestia Foundation in Portugal
+2. Build prototype house — document everything
+3. Apply for NEB Boost 2026 (€30,000) — deadline September 2026
+4. Apply for NEB Prizes 2026 (€20,000) — deadline March 2026 (already open)
+5. Approach FCT with prototype documentation for research grant
+6. Approach University of Algarve (UAlg) or Instituto Superior Técnico (IST
+   Lisbon) for research partnership
+7. Publish open source protocol on hestiafoundation.org
+8. Submit academic paper with prototype data
+
+Estimated funding Phase One: €50,000 to €100,000 in small grants.
+Primary output: Demonstrated, documented, published technology.
+
+PHASE TWO (2027):
+Target: Larger NEB grants, university partnership formalised, second prototype.
+
+Actions:
+1. Apply for NEB Horizon Europe call with university consortium
+   (HORIZON-NEB-2026-01-REGEN-01 or equivalent 2027 call)
+   Target: €2 million to €4 million
+2. Apply for Portugal 2030 affordable housing innovation instrument
+3. Build second prototype incorporating Phase One lessons
+4. Establish community workshop programme — first paid workshops
+5. Apply for Erasmus+ VET grant for workshop training programme
+6. Approach municipality partner for pilot social housing project
+
+Estimated funding Phase Two: €2 million to €5 million
+Primary output: Certified construction system, university-validated performance
+data, community training programme.
+
+PHASE THREE (2028-2030):
+Target: Large consortium grants, EU-wide deployment, CE marking.
+
+Actions:
+1. Apply for Horizon Europe Built4People partnership projects
+2. Apply for Interreg Portugal-Spain cross-border housing project
+3. Complete CE marking of RCP assembly methodology
+4. Establish European consortium: Portugal, Spain, Netherlands, potentially
+   Sweden (relevant timber frame tradition)
+5. Scale community workshop programme across EU
+6. Launch Hestia Build commercial arm with certified panels
+
+Estimated funding Phase Three: €5 million to €20 million
+Primary output: CE-marked system, EU-wide deployment, commercial operation.
+
+PHASE FOUR (2030+):
+Target: Pan-European Housing Investment Platform participation.
+
+The EU's Pan-European Housing Investment Platform is launching now with a
+mandate to fund scalable affordable housing systems. A Hestia Foundation with
+a four-year track record, CE-marked technology, university validation, and
+community deployment across multiple EU countries is exactly what this
+platform is designed to fund at scale.
+
+Estimated funding Phase Four: €20 million+ in investment and grants combined.
+
+
+================================================================================
+PART FIVE: THE PARTNERSHIP STRATEGY
+================================================================================
+
+5.1 Why Partners Are Essential
+
+Grant applications without institutional partners are consistently scored lower.
+The strongest applications show:
+— A research partner (university or research institute)
+— A deployment partner (municipality or housing authority)
+— A technology partner (engineering firm or construction company)
+— A social impact partner (NGO, housing charity, community organisation)
+
+The Hestia Foundation needs to acquire these partnerships before the large
+grant applications, not as a consequence of winning them.
+
+5.2 Target Partners
+
+UNIVERSITY PARTNERS (Portugal):
+University of Algarve (UAlg) — Architecture and Civil Engineering departments
+Instituto Superior Técnico (IST), Lisbon — structural engineering
+LNEC (Laboratório Nacional de Engenharia Civil) — the national civil engineering
+laboratory, which is the ideal partner for RCP panel certification testing
+
+LNEC is the single most valuable partner available in Portugal. They have the
+testing equipment, the institutional legitimacy, and the relationships with
+planning authorities and engineers to make the RCP system formally certifiable
+under Portuguese and EU standards. A joint research project between the Hestia
+Foundation and LNEC converts a well-argued thesis into a certified building system.
+
+MUNICIPALITY PARTNERS:
+Municipality of Lagos — home territory, housing crisis is acute, rural setting
+Municipality of Grândola — largest year-on-year price increase in Portugal
+  (88.4% in 2025), significant housing need
+Any municipality with rural depopulation challenge — the Alentejo interior,
+Trás-os-Montes, or equivalent areas in Spain are natural targets
+
+HOUSING AUTHORITY PARTNERS:
+Instituto da Habitação e da Reabilitação Urbana (IHRU) — Portugal's national
+housing and urban rehabilitation institute
+Any social housing provider in Portugal or Spain
+
+ENGINEERING PARTNERS:
+A Portuguese licensed structural engineer willing to co-author the certification
+submission is essential. This converts the Foundation's engineering analysis
+into a stamped professional opinion.
+
+5.3 How to Approach Partners
+
+The prototype build is the approach tool. An invitation to the prototype
+erection day — to watch a complete house go up in one to two days — is the
+most compelling demonstration available. Nobody says no to watching that happen.
+
+The sequence:
+1. Build the prototype
+2. Invite the target partner to the erection day
+3. Show them the documentation package
+4. Propose a research collaboration on the terms of their strongest interest
+   (structural testing for the engineer, energy performance for the energy
+   researcher, social impact for the municipality)
+5. Formalise as a Letter of Intent before grant submission
+
+The Hestia Foundation does not need to pay its partners. The grant funding
+pays them. The partnership is the mechanism by which grant funding is obtained
+and distributed. Partners contribute expertise, legitimacy, and institutional
+capacity. The Foundation contributes the technology and the protocol.
+
+
+================================================================================
+PART SIX: THE LANGUAGE THAT WINS GRANTS
+================================================================================
+
+6.1 What EU Grant Reviewers Are Looking For
+
+EU grant reviewers read hundreds of applications. The applications that score
+highest share a consistent set of characteristics:
+
+— They address a clearly stated EU policy priority using the EU's own language
+— They demonstrate innovation beyond the current state of the art
+— They show measurable social and environmental impact
+— They involve credible institutional partners
+— They have a realistic plan for dissemination and replication
+— They do not sound like a business looking for free money
+
+The Hestia Foundation's application language must be calibrated accordingly.
+
+6.2 The Correct Framing — Phrase by Phrase
+
+USE:                                    AVOID:
+"Open source housing protocol"          "Our product"
+"Community-empowered construction"      "DIY housing"
+"Low-skill assembly system"             "Anyone can build it"
+"Circular industrial materials"         "Pallets"
+"Validated thermal performance"         "We think it's well insulated"
+"Replicable at EU scale"               "We want to sell lots of houses"
+"Carbon-negative building system"       "Eco-friendly"
+"Reducing construction labour          "Cutting out the middleman"
+  dependency"
+"Social housing innovation"            "Cheap housing"
+"Rural regeneration housing"           "Building in the countryside"
+"Knowledge transfer programme"         "Teaching workshops"
+"Living lab prototype"                 "Test house"
+
+6.3 The Core Application Narrative
+
+This should be the spine of every application, adapted to the specific call:
+
+Europe needs 650,000 additional homes per year that are not being built.
+The construction industry faces severe labour shortages — skilled workers are
+scarce and the sector cannot scale to meet demand using conventional methods.
+Meanwhile, the materials to build millions of homes are already circulating in
+the European logistics network: 500 million EPAL Euro pallets in active
+circulation, CE-marked OSB manufactured from timber industry offcuts, and
+certified engineered I-joists available from any builders merchant.
+
+The Hestia Foundation has developed an open source assembly protocol — the
+Ribbed Composite Panel system — that enables permanent, insulated, off-grid
+family homes to be assembled from these existing certified components by
+organised non-specialist teams in one to two weeks, for €25,000 to €50,000
+in materials. The system requires no concrete, no specialist trades beyond
+brief certified professional interventions, and no equipment that does not fit
+on a standard trailer.
+
+This thesis constitutes the research foundation. The prototype constitutes the
+demonstration. The university partnership constitutes the independent validation.
+The community workshop programme constitutes the knowledge transfer mechanism.
+The Foundation is seeking [grant name and amount] to fund [specific phase] in
+order to [specific measurable outcome].
+
+6.4 The Measurable Outcomes That Matter to Reviewers
+
+Include specific, measurable outcomes in every application:
+
+— Number of housing units enabled per €1 million of grant investment
+  (significantly higher than any conventional approach)
+— CO2 savings per house versus conventional construction
+  (minimum 15 to 20 tonnes of embodied carbon avoided per house)
+— Construction time reduction: 8 to 12 weeks conventional versus
+  1 to 2 weeks RCP
+— Cost per square metre: €277 to €437 versus €2,800 to €4,500 conventional
+— Labour skill requirement reduction: skilled trades replaced by protocol
+  following
+— Communities trained per workshop cycle
+— Open source publications generated
+— Patent-free technology: freely replicable globally
+
+
+================================================================================
+PART SEVEN: THE PROTOTYPE LOCATION AND PLANNING
+================================================================================
+
+7.1 Algarve as the Prototype Location
+
+Lagos, Algarve is the correct prototype location for multiple reasons:
+
+Research relevance: The thesis is calibrated for Algarve conditions. Thermal
+data, wind loads, solar data, soil conditions — all are Lagos-specific. The
+prototype validates the thesis in exactly the conditions it was designed for.
+
+Grant relevance: The Algarve is an EU Objective 2 region with access to
+Portugal 2030 structural funds. Projects in this region receive preferential
+scoring for regional development grants.
+
+Housing crisis relevance: The Algarve's housing crisis is among the most
+acute in Europe. Median property price at €3,203 per square metre in Q3 2025,
+16.6 percent year-on-year increase. Documented, cited, directly relevant to
+every grant application.
+
+Climate data availability: PVGIS and LNEC climate databases provide
+comprehensive data for the Lagos microclimate. All thermal calculations in
+this thesis use verified Lagos data.
+
+7.2 The Living Lab Framing
+
+The prototype is not a show home. It is a living lab.
+
+A living lab is a research concept the EU actively funds: a real-world built
+environment where innovation is tested under genuine conditions of use. The
+Hestia Foundation's prototype is a living lab for:
+
+— Structural performance monitoring (sensor network from installation)
+— Thermal performance monitoring (12-month logged data)
+— Smart home energy optimisation (Shelly system data)
+— Occupant experience research (qualitative)
+— Maintenance performance (zero maintenance hypothesis tested)
+— A Salty Pest Insurance effectiveness (moisture sensors in wall cavities)
+
+The living lab framing converts a self-build project into a research facility.
+It is the framing that unlocks university partnerships and EU research grants.
+
+7.3 Permitting Strategy for the Prototype
+
+The prototype should be permitted. The permit:
+
+— Demonstrates that the system works within the conventional regulatory framework
+— Makes the structure legally acceptable as a research facility
+— Enables the university partnership (universities cannot partner on illegal
+  structures)
+— Provides the documentation that future applicants can reference
+— Removes the most common objection raised by municipalities and engineers
+
+The permit application for a lightweight timber frame on earth screws with
+CE-marked structural components is more straightforward than most people
+expect. The Hestia Foundation thesis is itself the supporting documentation.
+A licensed Portuguese structural engineer (the Foundation's engineering partner)
+stamps the structural calculations. A licensed architect stamps the drawings.
+The municipality of Lagos processes the application.
+
+Estimated time to permit: 3 to 6 months.
+Estimated cost: €3,000 to €5,000 in professional fees and application charges.
+
+
+================================================================================
+PART EIGHT: THE IMMEDIATE ACTION LIST
+================================================================================
+
+In priority order, the actions to take now:
+
+1. Register the Hestia Foundation as a nonprofit association in Portugal.
+   Cost: €500 to €1,500. Time: 4 to 6 weeks.
+
+2. Identify and secure a plot for the prototype build in the Algarve.
+   The plot can be owned, rented, or borrowed from a supportive landowner.
+   The NEB Boost 2026 specifically requires a rural or small community setting.
+
+3. Apply for the NEB Prizes 2026 (deadline already passed for 2026 — target
+   NEB Prizes 2027 and NEB Boost 2027 which will open early 2027).
+
+4. Contact LNEC about a research partnership for RCP panel testing.
+   The approach: send the thesis, request a meeting, propose a joint FCT
+   research grant application.
+
+5. Contact the structural engineering department at University of Algarve (UAlg).
+   Same approach.
+
+6. Build the prototype. Document everything. Publish everything.
+
+7. Submit the prototype documentation to the NEB Boost 2027 competition.
+
+8. Submit an academic paper with prototype structural and thermal data to
+   Construction and Building Materials (Elsevier) — the leading peer-reviewed
+   journal for this work.
+
+9. Apply for FCT research grant with LNEC or UAlg as lead institution,
+   Hestia Foundation as industry partner.
+
+10. Apply for Portugal 2030 affordable housing innovation instrument
+    (Aviso) as Foundation with municipality partner.
+
+
+================================================================================
+REFERENCES
+================================================================================
+
+European Commission (2026). The European Affordable Housing Plan: Making Your
+  Home Affordable, Sustainable and of Better Quality.
+  commission.europa.eu/topics/employment-and-social-affairs/affordability/
+  affordable-housing_en. Accessed May 2026.
+
+European Commission (2026). New European Bauhaus Facility 2025-2027.
+  new-european-bauhaus.europa.eu/funding/new-european-bauhaus-facility_en.
+  Accessed May 2026.
+
+European Commission (2026). HORIZON-NEB-2026-01-REGEN-01: Sustainable,
+  inclusive, affordable and beautiful solutions for thermal comfort in buildings.
+  Horizon Europe Work Programme 2026-2027. Deadline 01/12/2026.
+
+European Commission (2026). NEB Boost for Small Municipalities 2026.
+  NEB Prize: €30,000 per winner. 20 winners. Deadline March 2026.
+
+Lopes, P. (2026). Housing in Portugal: the problem is no longer a lack of
+  solutions, it is a lack of execution. The Portugal News, 6 May 2026.
+
+================================================================================
+END OF APPENDIX N
+================================================================================
