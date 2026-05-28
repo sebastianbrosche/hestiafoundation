@@ -30,6 +30,11 @@ To design, document, and distribute open-source building systems that enable fam
 | [docs/HESTIA_PITCH.md](docs/HESTIA_PITCH.md) | One-page pitch for partners and funders |
 | [docs/HESTIA_ACTION_LIST.md](docs/HESTIA_ACTION_LIST.md) | Immediate 10-step action list |
 | [docs/STATUS_REPORT.md](docs/STATUS_REPORT.md) | Comprehensive project dashboard |
+| [docs/PORTUGAL_GRANT_STRATEGY.md](docs/PORTUGAL_GRANT_STRATEGY.md) | Portugal-specific grant advantages (39.3% success rate) |
+| [docs/contact_database.md](docs/contact_database.md) | 15+ verified contacts (UAlg, LNEC, ANI, FCT) |
+| [docs/FINANCIAL_MODEL.md](docs/FINANCIAL_MODEL.md) | 3-scenario financial projection (funded / survival / pivot) |
+| [docs/VOLUNTEER_RECRUITMENT.md](docs/VOLUNTEER_RECRUITMENT.md) | How to join the build team |
+| [docs/SOCIAL_MEDIA_STARTER_PACK.md](docs/SOCIAL_MEDIA_STARTER_PACK.md) | Platform strategy, content pillars, post templates |
 
 ### Build
 
@@ -38,13 +43,25 @@ To design, document, and distribute open-source building systems that enable fam
 | [docs/build/build_protocol_shell_a.md](docs/build/build_protocol_shell_a.md) | 10-day construction manual (Shell A) |
 | [docs/build/workshop_curriculum.md](docs/build/workshop_curriculum.md) | 10-day self-build training programme |
 | [docs/build/sensor_network_spec.md](docs/build/sensor_network_spec.md) | 12-month monitoring system specification |
+| [docs/build/PROTOTYPE_BUILD_SCHEDULE.md](docs/build/PROTOTYPE_BUILD_SCHEDULE.md) | Week-by-week from site to handover |
+| [docs/build/WORKSHOP_FACILITATOR_GUIDE.md](docs/build/WORKSHOP_FACILITATOR_GUIDE.md) | How to run a 10-day build workshop |
+| [docs/build/MONITORING_FRAMEWORK.md](docs/build/MONITORING_FRAMEWORK.md) | M&E framework with KPIs and benchmarks |
 
 ### Grants
 
 | Document | Purpose |
 |----------|---------|
 | [docs/HESTIA_GRANTS.md](docs/HESTIA_GRANTS.md) | Active grant tracker with EU intelligence |
-| [docs/grants/](docs/grants/) | Pre-proposals and application frameworks |
+| [docs/grants/GRANT_WRITER_BRIEF.md](docs/grants/GRANT_WRITER_BRIEF.md) | Job description for hiring a grant writer |
+| [docs/grants/HORIZON-NEB-2026-01-REGEN-01_preproposal.md](docs/grants/HORIZON-NEB-2026-01-REGEN-01_preproposal.md) | €4M EU grant pre-proposal |
+| [docs/grants/NEB_Boost_application.md](docs/grants/NEB_Boost_application.md) | NEB Boost application framework |
+
+### Legal
+
+| Document | Purpose |
+|----------|---------|
+| [docs/legal/hestia_estatutos.md](docs/legal/hestia_estatutos.md) | Portuguese non-profit bylaws (Associação) |
+| [docs/legal/PORTUGAL_NONPROFIT_GUIDE.md](docs/legal/PORTUGAL_NONPROFIT_GUIDE.md) | Step-by-step registration guide |
 
 ### Outreach
 
@@ -54,6 +71,13 @@ To design, document, and distribute open-source building systems that enable fam
 | [docs/outreach/outreach_lnec.md](docs/outreach/outreach_lnec.md) | LNEC structural testing partnership email |
 | [docs/outreach/outreach_lagos_municipality.md](docs/outreach/outreach_lagos_municipality.md) | Lagos Municipality partnership email |
 | [docs/outreach/outreach_structural_engineer.md](docs/outreach/outreach_structural_engineer.md) | Structural engineer engagement email |
+
+### Press
+
+| Document | Purpose |
+|----------|---------|
+| [docs/press/press_release_templates.md](docs/press/press_release_templates.md) | 4 press release templates |
+| [docs/press/PRESS_KIT.md](docs/press/PRESS_KIT.md) | For journalists, bloggers, and media |
 
 ### Risk & Planning
 
