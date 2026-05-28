@@ -1,34 +1,46 @@
-Subject: Structural Testing Partnership — Novel Timber-Pallet Composite Panel System
+Subject: Structural Testing Partnership — Novel Pallet-Based Construction System
 
-Dear Dr. [Name],
+Dear Dr. Marta Rodrigues,
 
-I am writing on behalf of the Hestia Foundation, a non-profit organisation developing open-source construction systems for affordable housing. We have designed a novel structural system — the Ribbed Composite Panel (RCP) — and we are seeking an independent engineering partner to verify its structural adequacy.
+I am writing on behalf of the Hestia Foundation, a non-profit initiative in Lagos, Algarve, developing open-source construction systems for affordable, permanent family housing.
 
-**The System**
-The RCP uses CE-marked timber I-joists (38×90mm, 3.6m span) as ribs, spaced at 400mm centres, with EPAL Euro pallet slats as infill, and 12mm OSB sheathing as faces. The panel is 1.2m × 3.6m, 140mm thick, and weighs 45kg. We have completed dead load, live load, wind load, and deflection calculations under Eurocode 5, but these require independent verification and engineer certification.
+We have designed a building system — the Ribbed Composite Panel (RCP) — that uses standard EPAL Euro pallets (1200×800 mm) as the primary structural element, combined with I-joists, OSB sheathing, and mineral wool insulation. The system produces a 37.5 m² weathertight shell at approximately €25,000, assembled by non-specialists in 5–10 days without concrete or structural steel.
 
-**What We Need**
-1. Independent review of load calculations (dead, live, wind, snow)
-2. Verification of RCP panel structural adequacy under Eurocode 5
-3. Review of I-joist span tables and roof design
-4. Engineer-stamped drawings for permit applications
-5. Witness testing of prototype structural performance
-6. Contribution to peer-reviewed publication
+We are seeking a partnership with LNEC for independent structural validation:
 
-**What We Offer**
-- A completed prototype build for physical testing (Q3 2026, Lagos area)
-- Full documentation and calculation package
-- Co-authorship on resulting publications
-- Public recognition as certifying engineer for an open-source housing system
-- Connection to EU research funding applications (Horizon Europe, NEB Facility)
+1. **Panel load testing** — compressive, shear, and racking tests on pallet wall assemblies
+2. **Seismic performance assessment** — shake-table or numerical modelling under Eurocode 8
+3. **Long-term durability monitoring** — moisture cycling, thermal expansion, creep deformation
+4. **Certification support** — LNEC test data to support building permit applications and insurance
 
-We are particularly interested in partnering with LNEC given your national leadership in civil engineering research and your capacity for independent materials testing and certification.
+Why LNEC:
+- Portugal's premier independent civil engineering R&D institution
+- Extensive experience with sustainable materials and recycled aggregates
+- Active in EU research programmes (9 H2020 projects, 2 coordinated)
+- Independent third-party validation is essential for our grant proposals and permit applications
 
-Would you be available for a brief discussion in the coming weeks?
+What we offer:
+- All test specimens provided at our cost
+- Open-source publication of all test data under CC BY-SA 4.0
+- Co-authorship on peer-reviewed publications
+- Public acknowledgement in all project communications and grant proposals
+- No financial obligation from LNEC — we seek expertise and credibility
+
+Our prototype build is planned for Q3 2026. We would welcome the opportunity to present the system to your team and discuss a testing protocol.
+
+Please let us know if you would be available for a brief video call.
 
 Best regards,
 
-[Name]
+Sebastian Brosche
 Hestia Foundation
+Lagos, Algarve, Portugal
 info@hestiafoundation.org
 https://hestiafoundation.org
+
+---
+**Recipient:** Marta Rodrigues <mfrodrigues@lnec.pt>
+**Department:** National Laboratory for Civil Engineering (LNEC), Hydraulics and Environment Department
+**Phone:** +351 218 443 613
+**Status:** READY TO SEND — awaiting user approval
+**Notes:** Also cc: general LNEC contact (info@lnec.pt or +351 218 443 000) for routing

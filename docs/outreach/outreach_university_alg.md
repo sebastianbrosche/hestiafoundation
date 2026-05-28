@@ -1,12 +1,12 @@
 Subject: Research Partnership — Open-Source Timber Construction System for Affordable Housing
 
-Dear Professor [Name],
+Dear Professor Elisa M. J. da Silva,
 
 I am writing on behalf of the Hestia Foundation, a newly established non-profit organisation based in Lagos, Algarve, dedicated to developing open-source construction systems for affordable, permanent, off-grid family housing.
 
 We have developed a verified construction system — the Ribbed Composite Panel (RCP) — that uses CE-marked I-joists, EPAL Euro pallets, and 12mm OSB sheathing to produce a weathertight, thermally efficient building shell at approximately €25,000 for 37.5m². The system requires no concrete, no structural steel, and can be assembled by non-specialists in 5–10 days. Full cost data, structural calculations, and assembly protocols are available.
 
-We are seeking a formal research partnership with the University of Algarve to:
+We are seeking a formal research partnership with the University of Algarve — specifically the Instituto Superior de Engenharia and the Departamento de Engenharia Civil — to:
 
 1. Provide independent structural verification and testing of the RCP panel system under Eurocode 5
 2. Host student research projects (MSc/PhD) on timber-pallet composite construction
@@ -26,8 +26,14 @@ Please let us know if you would be available for a brief video call in the comin
 
 Best regards,
 
-[Name]
+Sebastian Brosche
 Hestia Foundation
 Lagos, Algarve, Portugal
 info@hestiafoundation.org
 https://hestiafoundation.org
+
+---
+**Recipient:** Elisa M. J. da Silva <esilva@ualg.pt>
+**Department:** Instituto Superior de Engenharia, Departamento de Engenharia Civil, Universidade do Algarve
+**Status:** READY TO SEND — awaiting user approval
+**Notes:** Also cc: international@ualg.pt (Alexandra Teodósio, Vice-Rector International) for awareness

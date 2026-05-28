@@ -1,40 +1,48 @@
-Subject: Municipal Housing Innovation Partnership — Affordable Housing Prototype
+Subject: Partnership Proposal — Open-Source Affordable Housing Pilot in Lagos Municipality
 
-Dear [Name],
+Dear [Câmara Municipal de Lagos],
 
-I am writing on behalf of the Hestia Foundation, a non-profit organisation developing open-source construction systems for affordable, permanent, off-grid family housing. We are based in Lagos and our first prototype build is planned for the Algarve region.
+I am writing on behalf of the Hestia Foundation, a non-profit organisation developing open-source construction systems for affordable, permanent, off-grid family housing. We are based in Lagos and our first prototype build is planned for the Lagos municipality area.
 
-**The Challenge**
-The Algarve faces a severe housing crisis. Property prices have risen to a median of €3,203/m² — unaffordable for median earners. Young people are leaving for Lisbon and Porto. Tourism pressure continues to reduce housing stock available for residents.
+**Our Project**
+The Hestia Foundation is building a 37.5 m² prototype home ("Shell A") using standard EPAL Euro pallets as the primary structural element. The system costs approximately €25,000, requires no concrete or structural steel, and can be assembled by non-specialists in 5–10 days. All designs, cost data, and build protocols are published under an open-source license (CC BY-SA 4.0).
 
-**Our Solution**
-We have developed the Ribbed Composite Panel (RCP) — a construction system that produces a complete, weathertight, off-grid family home shell for approximately €25,000 (37.5m²) or €40,000 (84m²). The system uses CE-marked timber I-joists, EPAL Euro pallets, and OSB sheathing. It requires no concrete, no structural steel, and can be assembled by non-specialists in 5–10 days.
+The prototype will include a 12-month sensor network monitoring thermal performance, humidity, energy use, and structural deflection — providing real data on affordable housing performance in the Algarve climate.
 
-**What We Propose**
-1. **Prototype site access** — a small parcel of municipal or municipally-supported land (200m²+, flat, vehicle access) for a 12-month monitoring period
-2. **Planning permission support** — the prototype is a temporary/permanent structure under 50m², which may qualify for simplified permitting
-3. **Joint Urban Innovative Actions (UIA) application** — the UIA funds urban innovation at €5M per project; a municipal partnership is required
-4. **Public open days and workshops** — demonstrate the system to residents, builders, and policymakers
-5. **Policy demonstration** — show that affordable housing innovation is possible without conventional procurement
+**Why Partner With Lagos Municipality**
+We believe Lagos can be a pioneer in addressing the EU housing crisis through practical, low-cost innovation. Specifically, we seek:
 
-**EU Funding Context**
-The EU has mobilised €43 billion for housing under the 2021–2027 budget, with an additional €10 billion in 2026–2027. The New European Bauhaus (NEB) specifically funds projects in communities under 20,000 residents — Lagos qualifies for the NEB Boost (€30,000) and the NEB Facility (up to €1.5M).
+1. **Land access** — A 200 m²+ flat site (temporary, 12–18 months) for the prototype build and monitoring period
+2. **Permit support** — Guidance on the simplified building permit process for small structures (<50 m², temporary use)
+3. **Municipal partnership letter** — To strengthen our EU grant applications (HORIZON-NEB, NEB Boost, Portugal 2030)
+4. **Public visibility** — The prototype can serve as a demonstration site for municipal housing policy innovation
 
-**What the Municipality Gains**
-- A live demonstration of affordable housing innovation
-- EU funding applications strengthened by municipal partnership
-- Positive media coverage and tourism interest
-- A potential model for social housing procurement reform
-- No financial obligation from the municipality
+**What We Offer Lagos**
+- A working demonstration of ultra-low-cost housing (€25,000 vs. €150,000+ conventional)
+- Open-source documentation that any municipality can replicate
+- Media coverage and EU project visibility for Lagos as an innovation leader
+- No cost to the municipality — we cover all construction and monitoring expenses
+- Potential for scaling: if the prototype succeeds, the system can be deployed for social housing, emergency housing, or rural depopulation reversal
 
-We would welcome the opportunity to present the full system to you and discuss how this partnership could work. A 30-minute meeting would be sufficient to cover the technical, legal, and financial aspects.
+**EU Context**
+Since 2013, house prices in the EU have risen by over 60%. Portugal faces acute housing pressure, particularly in rural and coastal areas. The European Commission has identified affordable housing as a strategic priority, with €43 billion mobilised (2021–2027) and an additional €10 billion announced for 2026–2027. Lagos can position itself at the forefront of this movement.
 
-Please let us know your availability.
+**Next Steps**
+We would welcome the opportunity to present the project to your Urban Planning (Urbanismo) or Environment (Ambiente) department and discuss how a pilot partnership could work. We can provide full technical documentation, architectural drawings, and our grant strategy.
+
+Please let us know if you would be available for a meeting in the coming weeks.
 
 Best regards,
 
-[Name]
+Sebastian Brosche
 Hestia Foundation
 Lagos, Algarve, Portugal
 info@hestiafoundation.org
 https://hestiafoundation.org
+
+---
+**Recipient:** Câmara Municipal de Lagos — Urbanismo or Ambiente department
+**Address:** Rua de São Gonçalo de Lagos, 8600-530 Lagos
+**Phone:** +351 282 771 000
+**Status:** READY TO SEND — awaiting user approval
+**Notes:** Need to identify specific contact person. Consider delivering in person with printed one-pager.

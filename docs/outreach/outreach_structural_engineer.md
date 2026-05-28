@@ -1,52 +1,46 @@
-Subject: Independent Structural Review — Timber-Pallet Composite Panel System
+Subject: Consultation Request — Structural Engineering for Open-Source Pallet Construction System
 
-Dear Eng. [Name],
+Dear [Engineer Name],
 
-I am writing on behalf of the Hestia Foundation, a non-profit developing open-source construction systems for affordable housing. We seek an independent Portuguese structural engineer to review and certify our Ribbed Composite Panel (RCP) system.
+I am writing on behalf of the Hestia Foundation, a non-profit organisation in Lagos, Algarve, developing an open-source construction system for affordable family housing. We are seeking a Portuguese-licensed structural engineer to review and sign off on our structural calculations.
 
 **The System**
-The RCP panel consists of:
-- CE-marked timber I-joists (38×90mm, 3.6m span) as structural ribs
-- EPAL Euro pallet hardwood slats as infill between ribs
-- 12mm OSB sheathing (both faces)
-- Panel dimensions: 1.2m × 3.6m × 140mm thick
-- Panel weight: 45kg (two-person lift)
-- Assembly: 400mm centres, ring-shank nails, construction adhesive
+The Ribbed Composite Panel (RCP) uses standard EPAL Euro pallets (1200×800 mm, rated 1500 kg dynamic load) as the primary structural element. Pallets are arranged in interlocking grids, reinforced with I-joists, and sheathed with 12mm OSB. The system produces a 37.5 m² building shell at approximately €25,000.
 
-**Structural Claims**
-We have calculated:
-- Dead load: 45kg/panel (0.35 kN/m²)
-- Live load: 1.5 kN/m² (residential)
-- Wind load: 1.2 kN/m² (Algarve, EN 1991-1-4)
-- Deflection: L/300 under total load
-- Connection: OSB face screws at 150mm centres
+**What We Need**
+1. **Structural calculation review** — Wind loads (Algarve, Eurocode 1), snow loads (not applicable), seismic (Eurocode 8, Portugal Zone 1.3/1.4), and live loads
+2. **Panel assembly analysis** — Shear strength, compressive capacity, racking resistance of pallet wall assemblies
+3. **Foundation design** — Lightweight foundation options (screw piles, ground screws, or minimal concrete pads) suitable for temporary/relocateable structures
+4. **Signed documentation** — Calculations stamped by a Portuguese-licensed engineer for building permit application
+5. **Ongoing advisory** — 2–3 hours/month during the build phase for on-call structural questions
 
-**Scope of Work Required**
-1. Review and verify load calculations under Eurocode 5
-2. Check RCP panel structural adequacy (bending, shear, deflection)
-3. Review I-joist span tables against our roof/floor design
-4. Produce engineer-stamped drawings for permit applications
-5. Witness prototype structural testing (Q3 2026)
-6. Contribute to peer-reviewed publication
+**Budget**
+We have allocated €2,000–€4,000 for the initial calculation review and documentation. Ongoing advisory can be negotiated separately.
 
-**Your Profile**
-- Licensed with Ordem dos Engenheiros
-- Experience with Eurocode 5 (timber design)
-- Openness to non-conventional materials
-- Interest in affordable housing innovation
+**Why This Matters**
+There is currently zero peer-reviewed literature on pallet-based construction. You would be the first licensed engineer to sign off on a system that could be replicated across Portugal and the EU. All work is published open-source, giving you public visibility and potential co-authorship on publications.
 
-**What We Offer**
-- Competitive fee (negotiable, budget €5,000 for review + certification)
-- Public recognition as certifying engineer
-- Co-authorship on resulting publications
-- Connection to EU research funding applications
-- Working with a mission-driven organisation, not a developer
+**Timeline**
+- Documentation review: June 2026
+- Calculations complete: July 2026
+- Build phase: August–September 2026
 
-Please let us know your availability and fee structure for this type of engagement.
+If you are interested, we can provide full technical documentation, CAD sketches, and material specifications for review. We would welcome a 30-minute call to discuss.
 
 Best regards,
 
-[Name]
+Sebastian Brosche
 Hestia Foundation
+Lagos, Algarve, Portugal
 info@hestiafoundation.org
 https://hestiafoundation.org
+
+---
+**Status:** TEMPLATE — need to identify specific engineer
+**Where to find candidates:**
+- Ordem dos Engenheiros (Portuguese Engineers Association) — www.ordemengenheiros.pt
+- LinkedIn search: "structural engineer" + "Algarve" or "Faro" or "Portimão"
+- University of Algarve engineering alumni network
+- Local architects/developers who work with timber frame or alternative construction
+
+**Budget note:** €2,000–€4,000 is a conservative estimate. For a system with no precedent, the engineer may need more time. Budget up to €6,000 if complexity exceeds expectations.
