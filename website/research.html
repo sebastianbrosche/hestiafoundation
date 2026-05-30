@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research & Data — Hestia Foundation</title>
+  <meta name="description" content="We publish what works. And what does not. Sensor data, load testing, thermal monitoring, and openly documented constraints.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+
+<nav class="nav scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-mark">⌂</span>
+      <span class="nav-logo-text">Hestia</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#manifesto">Manifesto</a></li>
+      <li><a href="the-system.html">The System</a></li>
+      <li><a href="build.html">Build</a></li>
+      <li><a href="costs.html">Costs</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="nav-cta">GitHub ↗</a></li>
+    </ul>
+    <button class="nav-mobile" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <div class="section-label" style="color:var(--color-accent-light); margin-bottom:16px;">05 — Research & Data</div>
+    <h1>We publish what works.<br>And what does not.</h1>
+    <p>Serious builders talk about constraints. Scammy projects talk only about vision. This page documents every assumption we have made, every test we plan to run, and every risk we have identified. The data will be published in real time. The failures will be published too.</p>
+  </div>
+</header>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-label">5.1 — Current Constraints</div>
+    <h2>What we do not know yet</h2>
+    <p>These are the active engineering questions. We are not pretending they are solved. The prototype build in Algarve, Portugal (Q3 2026) is designed to answer every one of them.</p>
+
+    <div class="constraints-grid" style="margin-top:32px;">
+      <div class="constraint-card active">
+        <div class="constraint-status">→ Active</div>
+        <h4>Lateral bracing</h4>
+        <p>Corner panels and shear walls provide bracing under our assumptions. The OSB-faced panels create shear diaphragms. But the full diaphragm capacity of a pallet-core panel versus a solid-timber-core panel has not been tested. We assume the OSB skins carry the shear and the pallet blocks provide fastening points. This will be verified with full-scale racking tests at LNEC.</p>
+        <p style="margin-top:12px; font-size:0.8rem; color:var(--color-text-muted);"><strong>Mitigation:</strong> Temporary bracing during construction is standard practice. Permanent bracing may require additional timber diagonal straps in high-wind zones.</p>
+      </div>
+      <div class="constraint-card active">
+        <div class="constraint-status">→ Active</div>
+        <h4>Condensation risk</h4>
+        <p>The assembly is vapour-open: OSB is vapour-permeable. Rock wool is vapour-permeable. Limewash is vapour-permeable. The entire wall breathes. But in a heating climate with high internal humidity, interstitial condensation at the OSB faces is a risk we have not quantified.</p>
+        <p style="margin-top:12px; font-size:0.8rem; color:var(--color-text-muted);"><strong>Mitigation:</strong> 12-month monitoring with humidity sensors in cavities. WUFI modelling before build. Breather membrane on cold side. No vapour barrier on warm side.</p>
+      </div>
+      <div class="constraint-card active">
+        <div class="constraint-status">→ Active</div>
+        <h4>Code approval pathway</h4>
+        <p>Portuguese building code (Regulamento Geral das Edificações Urbanas) allows engineered timber systems with stamped structural calculations. But an RCP panel is not a standard product with an ETA (European Technical Assessment). We need a structural engineer to produce project-specific calculations and a test body to provide evidence.</p>
+        <p style="margin-top:12px; font-size:0.8rem; color:var(--color-text-muted);"><strong>Mitigation:</strong> LNEC (National Laboratory for Civil Engineering) testing planned for Q3 2026. University of Algarve research partnership. Target: test report sufficient for municipal approval under "innovative construction system" pathway.</p>
+      </div>
+      <div class="constraint-card active">
+        <div class="constraint-status">→ Active</div>
+        <h4>Ground screw capacity in Algarve soils</h4>
+        <p>Helical ground screws are proven in Northern European soils (clay, sand, loam). Algarve soils are variable: sandy near coast, rocky inland, clay in valleys. The pull-out capacity of a 68mm screw in sandy Algarve soil has not been tested for this project.</p>
+        <p style="margin-top:12px; font-size:0.8rem; color:var(--color-text-muted);"><strong>Mitigation:</strong> On-site pull-out tests before foundation installation. Increase screw count in low-capacity soils. Alternative: shallow pad foundations in bedrock areas.</p>
+      </div>
+      <div class="constraint-card active">
+        <div class="constraint-status">→ Active</div>
+        <h4>Fire rating</h4>
+        <p>Target: REI 30 (30 minutes resistance to fire, insulation, and integrity). Raw timber + OSB + rock wool provides natural fire protection through char layer formation. But the specific assembly has not been fire-tested. A gypsum board lining on the interior face would significantly improve rating.</p>
+        <p style="margin-top:12px; font-size:0.8rem; color:var(--color-text-muted);"><strong>Mitigation:</strong> Full-scale panel burn test scheduled. Interior gypsum lining as standard specification. Fire stops at panel joints.</p>
+      </div>
+      <div class="constraint-card open">
+        <div class="constraint-status">? Open</div>
+        <h4>Long-term creep and settlement</h4>
+        <p>Wood creeps under sustained load. A wall panel under roof dead load + snow load + wind load will deform over decades. The magnitude of this deformation in an RCP panel is unknown because the assembly is new. We assume the OSB skins control long-term deformation, but this is an assumption.</p>
+        <p style="margin-top:12px; font-size:0.8rem; color:var(--color-text-muted);"><strong>Mitigation:</strong> 12-month prototype monitoring includes LVDT deflection sensors on critical joints. Long-term data will inform design adjustments for future builds.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt">
+  <div class="container">
+    <div class="section-label">5.2 — Prototype Testing Plan</div>
+    <h2>The 37.5m² Shell A module, Algarve, Q3 2026</h2>
+    <p>This is not a demonstration. It is a test. The module will be built, instrumented, monitored for 12 months, and then either validated or modified based on the data. Every result — positive, negative, or inconclusive — will be published.</p>
+
+    <div class="phase-detail">
+      <h3>Structural testing (pre-occupation)</h3>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Test</th>
+            <th>Standard / Method</th>
+            <th>Target</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlight-row">
+            <td>Panel compression test</td>
+            <td>EN 408 / adapted for composite panel</td>
+            <td>Verify capacity >10× design load</td>
+            <td>Planned Q3 2026</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Panel shear test</td>
+            <td>EN 594 / adapted for RCP</td>
+            <td>Verify shear capacity >5× design load</td>
+            <td>Planned Q3 2026</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Wall racking test</td>
+            <td>EN 594 full wall panel</td>
+            <td>Lateral deflection <H/300 at design wind</td>
+            <td>Planned Q3 2026</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Floor load test</td>
+            <td>EN 1195 / I-joist span table</td>
+            <td>Verify 1.5 kN/m² live load capacity</td>
+            <td>Planned Q3 2026</td>
+          </tr>
+          <tr>
+            <td>Ground screw pull-out</td>
+            <td>On-site load test, 25 kN target</td>
+            <td>Verify foundation capacity per screw</td>
+            <td>Planned Q3 2026</td>
+          </tr>
+          <tr>
+            <td>OSB bond durability</td>
+            <td>Accelerated ageing + shear test</td>
+            <td>No delamination after 10 cycles</td>
+            <td>Planned Q4 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="phase-detail">
+      <h3>Thermal and environmental monitoring (12 months)</h3>
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Parameter</th>
+            <th>Sensor type</th>
+            <th>Location</th>
+            <th>Sample rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="highlight-row">
+            <td>Air temperature</td>
+            <td>DS18B20 digital</td>
+            <td>Each room, roof void, exterior</td>
+            <td>Every 5 minutes</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Relative humidity</td>
+            <td>SHT30 / SHT40</td>
+            <td>Each room, wall cavity, roof cavity</td>
+            <td>Every 5 minutes</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Wood moisture content</td>
+            <td>Resistance-type pin</td>
+            <td>Pallet core in 6 locations</td>
+            <td>Hourly</td>
+          </tr>
+          <tr class="highlight-row">
+            <td>Structural deflection</td>
+            <td>LVDT displacement</td>
+            <td>Mid-span floor, wall base, roof ridge</td>
+            <td>Hourly</td>
+          </tr>
+          <tr>
+            <td>Solar generation</td>
+            <td>Inverter output (Shelly EM)</td>
+            <td>PV array AC output</td>
+            <td>Every minute</td>
+          </tr>
+          <tr>
+            <td>Energy consumption</td>
+            <td>Shelly EM clamp meters</td>
+            <td>Main circuits (lights, sockets, heating)</td>
+            <td>Every minute</td>
+          </tr>
+          <tr>
+            <td>Wind speed + direction</td>
+            <td>Anemometer</td>
+            <td>Ridge height</td>
+            <td>Every minute</td>
+          </tr>
+          <tr>
+            <td>Indoor air quality</td>
+            <td>CO2 + VOC sensor</td>
+            <td>Living space</td>
+            <td>Every 5 minutes</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:16px; font-size:0.9rem; color:var(--color-text-muted);">All data published in real time at <strong>data.hestiafoundation.org</strong> (coming Q3 2026). Raw CSV downloads available. Open-source dashboard code on GitHub. You can fork the analysis, disagree with our conclusions, and publish your own.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section dark">
+  <div class="container">
+    <div class="section-label">5.3 — Sensor Network Specification</div>
+    <h2>20+ sensors. Real-time. Public.</h2>
+    <p>The monitoring system is designed to answer specific engineering questions, not to produce pretty charts. Every sensor has a purpose. Every data stream feeds back into the design.</p>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>Structural health monitoring</h3>
+        <ul>
+          <li><strong>LVDT displacement sensors</strong> at floor mid-span, wall base, and roof ridge. Measures creep, settlement, and seasonal movement. Calibrated against initial zero reading post-construction.</li>
+          <li><strong>Strain gauges</strong> on I-joist flanges at maximum moment locations. Verifies that stress levels remain within elastic limits under all load combinations.</li>
+          <li><strong>Bolt torque indicators</strong> at panel connection points. Detects loosening due to wood shrinkage or cyclic loading.</li>
+          <li><strong>Accelerometer</strong> on roof structure. Characterises wind-induced vibration and dynamic response.</li>
+        </ul>
+
+        <h3>Thermal performance verification</h3>
+        <ul>
+          <li><strong>Heat flux plates</strong> on interior and exterior wall faces. Directly measures U-value of the complete assembly (not just the materials).</li>
+          <li><strong>Temperature gradient probes</strong> through wall thickness. 5 points from interior face to exterior face. Shows thermal bridging, if any.</li>
+          <li><strong>Infrared camera survey</strong> at 3, 6, and 12 months. Visual identification of thermal anomalies.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Moisture and durability</h3>
+        <ul>
+          <li><strong>Wood moisture content pins</strong> embedded in pallet cores at 6 locations (high and low, north and south faces, roof, floor). Detects moisture accumulation before decay can begin.</li>
+          <li><strong>Relative humidity sensors</strong> in wall cavities and roof void. Verifies that the breathable assembly manages humidity correctly.</li>
+          <li><strong>Rain detection sensor</strong> on exterior. Correlates weather events with cavity humidity response.</li>
+          <li><strong>Groundwater level</strong> (if applicable). Monitors foundation moisture exposure.</li>
+        </ul>
+
+        <h3>Energy and occupancy</h3>
+        <ul>
+          <li><strong>Solar PV production</strong> (Shelly EM). Every minute. Verifies off-grid viability.</li>
+          <li><strong>Battery state of charge</strong> (BMS data). Tracks storage performance through seasons.</li>
+          <li><strong>Circuit-level consumption</strong> (Shelly EM clamps). Lighting, sockets, water heating. Identifies the actual energy demand of a Hestia home.</li>
+          <li><strong>Indoor CO2 and VOC</strong>. Verifies that the vapour-open, naturally ventilated assembly maintains healthy indoor air quality without mechanical ventilation.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="calc-block" style="background:rgba(255,255,255,0.03); border-color:var(--color-border-dark); margin-top:48px;">
+      <h4 style="color:var(--color-text-inverse);">Data publication protocol</h4>
+      <ul style="color:rgba(255,255,255,0.5);">
+        <li>Raw data: uploaded to GitHub daily as CSV files</li>
+        <li>Live dashboard: data.hestiafoundation.org, updated every 5 minutes</li>
+        <li>Monthly reports: analysis and interpretation published as Markdown documents</li>
+        <li>Annual report: comprehensive performance summary after 12 months</li>
+        <li>All data: CC0 (public domain). Use it for your thesis, your paper, your competing project. We do not own the data. The building owns it.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt">
+  <div class="container">
+    <div class="section-label">5.4 — Failed Iterations</div>
+    <h2>What we tried that did not work</h2>
+    <p>This section will grow. Every failed prototype, every incorrect assumption, every design mistake will be documented here. We do not hide failures. They are the fastest way to improve.</p>
+
+    <div class="phase-detail" style="border-left:3px solid var(--color-accent);">
+      <h3>Iteration 0: EPS core (abandoned)</h3>
+      <p>Our first composite panel design used an EPS (expanded polystyrene) core between OSB skins — essentially a conventional SIP. This was abandoned for three reasons:</p>
+      <ul>
+        <li><strong>Shear failure:</strong> EPS provides negligible shear transfer. The panel behaved as two independent thin plates. Under racking load, the skins buckled independently at less than 30% of predicted capacity.</li>
+        <li><strong>Screw pull-out:</strong> Standard wall fixtures (kitchen cabinets, shelving, curtain rails) pulled out of EPS at loads under 100 N. The wall could not be used as a wall.</li>
+        <li><strong>Carbon:</strong> EPS is petroleum-based and not recyclable at end of life. It contradicts the low-carbon principle.</li>
+      </ul>
+      <p>The timber-core RCP replaced EPS entirely. Shear capacity increased by approximately 20-50×. Screw pull-out increased by 10-20×. And the material is carbon-storing, not carbon-emitting.</p>
+    </div>
+
+    <div class="phase-detail" style="border-left:3px solid var(--color-text-muted); opacity:0.7;">
+      <h3>Iteration 1: Pallet-only walls without OSB (abandoned)</h3>
+      <p>We tested a wall built from unskinned pallets stacked and bolted together. The structural performance was inadequate: the pallet joints created discontinuities in the load path, and the wall racked significantly under lateral load. OSB skins are not cosmetic. They are structural. They create the diaphragm that makes the wall rigid.</p>
+    </div>
+
+    <div class="phase-detail" style="border-left:3px solid var(--color-text-muted); opacity:0.7;">
+      <h3>Iteration 2: Nail-only fastening (revised)</h3>
+      <p>Early prototypes used nails only, no adhesive. Panel delamination occurred under cyclic humidity loading — the OSB shrank and swelled, working the nails loose. The addition of continuous PU adhesive bond solved this. The current specification uses both: adhesive for continuous shear transfer, nails for clamping pressure during cure and mechanical backup.</p>
+    </div>
+
+    <div class="info-box" style="margin-top:32px;">
+      <p><strong>This space will be updated.</strong> The prototype build in Q3 2026 will produce new failures. They will be documented here, with photographs, data, and design changes. If you are evaluating whether to trust this system, watch this space. A project that has no documented failures has either not built anything, or is hiding something.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-label">5.5 — Get Involved in Research</div>
+    <h2>Thesis opportunities in a field with zero peer-reviewed literature</h2>
+    <p>No academic paper has ever been published on pallet-core composite panels for housing. That means every question is open. Every test is novel. Every student who works on this is writing the first draft of a new field.</p>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>Civil engineering</h3>
+        <ul>
+          <li>Composite panel shear capacity testing</li>
+          <li>Long-term creep behaviour of timber-OSB bonds</li>
+          <li>Diaphragm action in pallet-core wall systems</li>
+          <li>Seismic performance of lightweight timber assemblies</li>
+          <li>Ground screw pull-out in Southern European soils</li>
+        </ul>
+
+        <h3>Architecture</h3>
+        <ul>
+          <li>Spatial quality of small-footprint homes</li>
+          <li>Natural ventilation design for vapour-open assemblies</li>
+          <li>Daylight optimisation in narrow-plan modules</li>
+          <li>Biophilic design with exposed timber surfaces</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Environmental science</h3>
+        <ul>
+          <li>Embodied carbon comparison: RCP vs SIP vs timber frame vs masonry</li>
+          <li>Life cycle assessment of pallet-sourced building materials</li>
+          <li>Indoor air quality in naturally ventilated, low-VOC assemblies</li>
+          <li> rainwater harvesting system design for off-grid homes</li>
+        </ul>
+
+        <h3>Computer science / Data</h3>
+        <ul>
+          <li>Open-source sensor dashboard development</li>
+          <li>Machine learning for building performance prediction</li>
+          <li>Parametric CAD models for automated panel generation</li>
+          <li>Blockchain-verified supply chain tracking for pallet sourcing</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="margin-top:40px; text-align:center;">
+      <a href="mailto:research@hestiafoundation.org" class="btn btn-primary">Contact research team →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">⌂ Hestia</div>
+        <p>An open-source foundation for scalable affordable housing in Europe.</p>
+        <div class="footer-license">
+          <span class="license-badge">CC BY-SA 4.0</span>
+          <span>All designs, data, and documentation</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Project</h4>
+        <ul>
+          <li><a href="index.html#manifesto">Manifesto</a></li>
+          <li><a href="the-system.html">The System</a></li>
+          <li><a href="build.html">Build Protocol</a></li>
+          <li><a href="costs.html">Cost Breakdown</a></li>
+          <li><a href="research.html">Research & Data</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub Repository</a></li>
+          <li><a href="#">CAD Files (Coming)</a></li>
+          <li><a href="#">Build Manual (Coming)</a></li>
+          <li><a href="#">Sensor Dashboard (Coming)</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@hestiafoundation.org">info@hestiafoundation.org</a></li>
+          <li>Lagos, Algarve, Portugal</li>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">github.com/sebastianbrosche/hestiafoundation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Hestia Foundation. All wrongs reserved. Open source forever.</p>
+      <p class="footer-quote">"Home is not a place. Home is a system."</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+</script>
+
+</body>
+</html>

@@ -4,250 +4,456 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The System — Hestia Foundation</title>
-  <meta name="description" content="The Ribbed Composite Panel (RCP) system: how to build a €25,000 home from standard EPAL Euro pallets.">
-  <meta property="og:title" content="The RCP System — Hestia Foundation">
-  <meta property="og:description" content="The Ribbed Composite Panel system: EPAL pallets, I-joists, OSB sheathing. Engineered, tested, open source.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://hestiafoundation.org/the-system.html">
-  <meta property="og:site_name" content="Hestia Foundation">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="The RCP System — Hestia Foundation">
-  <meta name="twitter:description" content="The Ribbed Composite Panel system: EPAL pallets, I-joists, OSB sheathing. Engineered, tested, open source.">
-  <meta name="theme-color" content="#2d5016">
-  <link rel="canonical" href="https://hestiafoundation.org/the-system.html">
-
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="description" content="Five certified components. One complete home. Every part is off-the-shelf. Nothing is custom. Nothing is scarce.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
 
-<nav>
-  <div class="container">
-    <a href="index.html" class="logo">
-      <div class="logo-icon">⌂</div>
-      Hestia Foundation
+<nav class="nav scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-mark">⌂</span>
+      <span class="nav-logo-text">Hestia</span>
     </a>
     <ul class="nav-links">
-      <li><a href="about.html">About</a></li>
-      <li><a href="the-system.html" class="active">The System</a></li>
-      <li><a href="prototype.html">Prototype</a></li>
-      <li><a href="grants.html">Grants</a></li>
-      <li><a href="timeline.html">Timeline</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="get-involved.html" class="btn btn-primary" style="padding:8px 20px;font-size:0.9rem;">Get Involved</a></li>
+      <li><a href="index.html#manifesto">Manifesto</a></li>
+      <li><a href="the-system.html">The System</a></li>
+      <li><a href="build.html">Build</a></li>
+      <li><a href="costs.html">Costs</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="nav-cta">GitHub ↗</a></li>
     </ul>
+    <button class="nav-mobile" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
   </div>
 </nav>
 
-<section class="page-header">
+<header class="page-header">
   <div class="container">
-    <h1>The Ribbed Composite Panel</h1>
-    <p>How to build a weathertight, insulated, permanent home using standard EPAL Euro pallets as the primary structural element.</p>
+    <div class="section-label" style="color:var(--color-accent-light); margin-bottom:16px;">02 — The System</div>
+    <h1>Five certified components.<br>One complete home.</h1>
+    <p>Every part is off-the-shelf. Nothing is custom. Nothing is scarce. The system is not an invention. It is a substitution: we replace the petroleum foam core of a standard SIP with a timber skeleton that Europe already produces in unlimited quantity.</p>
+  </div>
+</header>
+
+<section class="content-section">
+  <div class="container">
+    <div class="section-label">2.1 — The Five Components</div>
+    <h2>The complete structural parts list</h2>
+    <p>There are no others. Every piece in this list is a standard, certified, mass-produced product available from any builders merchant or logistics depot in Europe. No prototypes. No special orders. No minimum quantities.</p>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Function</th>
+          <th>Specification</th>
+          <th>Source</th>
+          <th>Unit Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight-row">
+          <td>EPAL Euro Pallet</td>
+          <td>Ribbed structural core of wall panel</td>
+          <td>1200 × 800 × 145mm, ISPM 15, heat-treated softwood</td>
+          <td>Every logistics depot in EU</td>
+          <td>€8 – 12</td>
+        </tr>
+        <tr class="highlight-row">
+          <td>OSB3 Board</td>
+          <td>Two structural skins bonded to core</td>
+          <td>2500 × 1250 × 15mm, EN 300, moisture resistant</td>
+          <td>Any builders merchant</td>
+          <td>€12 – 16</td>
+        </tr>
+        <tr class="highlight-row">
+          <td>Engineered I-Joist</td>
+          <td>Roof and floor spanning members</td>
+          <td>STEICO SJ200/SJ240 or equivalent LVL flange</td>
+          <td>Any timber merchant</td>
+          <td>€18 – 24/m</td>
+        </tr>
+        <tr class="highlight-row">
+          <td>Helical Ground Screw</td>
+          <td>Foundation</td>
+          <td>68mm diameter, 15-25 kN per screw</td>
+          <td>Specialist supplier</td>
+          <td>€30 – 50 installed</td>
+        </tr>
+        <tr class="highlight-row">
+          <td>PU Adhesive + Ring Shank Nails</td>
+          <td>Bonding the composite panel</td>
+          <td>EN 204 D4 class, 3.1 × 90mm nails</td>
+          <td>Any builders merchant</td>
+          <td>€0.50/m² panel</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="info-box">
+      <p><strong>This is not a kit.</strong> You do not order a Hestia kit from a factory. You walk into any builders merchant, buy these five products, and follow the protocol. The nearest depot to your building site is your supplier. The system scales with knowledge, not with supply chains.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt">
+  <div class="container">
+    <div class="section-label">2.2 — Why It Holds Up</div>
+    <h2>The structural principle: composite action</h2>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>How a conventional SIP works</h3>
+        <p>A Structural Insulated Panel uses two OSB skins with a petroleum foam core between them. The OSB carries tension and compression. The foam holds the skins apart. Bonded together, they act as one structural unit.</p>
+        <p>The problem: the foam core provides almost no shear transfer. Its shear strength is approximately 0.1-0.2 MPa. The panel acts like two independent thin plates. Screw pull-out from foam is approximately 50-100 N per screw, which is useless for hanging cabinets, mounting shelves, or attaching services.</p>
+        <p>The governing failure mode in a SIP is either OSB skin buckling or adhesive delamination at the foam interface. Neither is easily repaired.</p>
+      </div>
+      <div class="col">
+        <h3>How the Hestia RCP works</h3>
+        <p>The Hestia Ribbed Composite Panel uses the same principle — two OSB3 skins, 15mm each, bonded to a ribbed core. But the core is not foam. It is an EPAL Euro pallet: a timber skeleton with three stringers, multiple deck boards, and nine blocks, all dimensionally exact to a continental standard.</p>
+        <p>The timber core provides shear strength of 3-5 MPa — <strong>20 to 50 times that of EPS foam</strong>. The stringers act as continuous shear connectors between the skins. Ring-shank nails and structural PU adhesive create a mechanical bond, not just a glued one.</p>
+        <p>Screw pull-out into the timber stringers is approximately 800-1200 N per screw — <strong>10 to 20 times that of foam</strong>. You can mount a kitchen cabinet directly to the wall. You can hang a solar water tank. The wall behaves like solid timber, because it is.</p>
+        <p>The governing failure mode is OSB nail-head pull-through — the cheapest and most easily upgraded component in the entire system.</p>
+      </div>
+    </div>
+
+    <h3>Structural comparison: SIP vs RCP</h3>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Standard SIP (EPS Core)</th>
+          <th>Hestia RCP (Timber Core)</th>
+          <th>Advantage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Core shear strength</td>
+          <td>0.1 – 0.2 MPa</td>
+          <td>3 – 5 MPa</td>
+          <td><strong>20-50×</strong></td>
+        </tr>
+        <tr>
+          <td>Screw pull-out</td>
+          <td>50 – 100 N</td>
+          <td>800 – 1200 N</td>
+          <td><strong>10-20×</strong></td>
+        </tr>
+        <tr>
+          <td>Panel weight (1200×800×145)</td>
+          <td>~20 kg</td>
+          <td>~44 kg</td>
+          <td>Heavier but far stronger</td>
+        </tr>
+        <tr>
+          <td>Fire resistance (raw panel)</td>
+          <td>Melts and drips</td>
+          <td>Char layer + insulation</td>
+          <td>Natural fire protection</td>
+        </tr>
+        <tr>
+          <td>Carbon footprint</td>
+          <td>Petroleum-based core</td>
+          <td>Carbon-storing timber</td>
+          <td>Negative embodied carbon</td>
+        </tr>
+        <tr>
+          <td>Service attachment</td>
+          <td>Special inserts required</td>
+          <td>Direct screw into timber</td>
+          <td>Simple and strong</td>
+        </tr>
+        <tr>
+          <td>End-of-life</td>
+          <td>Landfill (foam not recyclable)</td>
+          <td>Timber: compost or burn. OSB: recycle.</td>
+          <td>Circular by design</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="calc-block">
+      <h4>Weight calculation — One RCP Panel</h4>
+      <table>
+        <tr><td>EPAL pallet core (softwood, kiln-dried)</td><td>~25 kg</td></tr>
+        <tr><td>OSB3 skins, 2× 15mm (1200×800 each)</td><td>~17.8 kg</td></tr>
+        <tr><td>PU adhesive + ring-shank nails</td><td>~1.5 kg</td></tr>
+        <tr><td><strong>Total per panel</strong></td><td><strong>~44 kg</strong></td></tr>
+      </table>
+      <p class="calc-note">One person can lift and position a panel. Two people can raise a wall panel with a simple wall jack. The weight is comparable to a sheet of 18mm plasterboard (approximately 35 kg/m²), but the structural performance is incomparable.</p>
+    </div>
+
+    <div class="calc-block">
+      <h4>Wood material volume — Complete 84m² home</h4>
+      <table>
+        <tr><td>44 RCP panels × 0.053 m³ timber each</td><td>2.33 m³</td></tr>
+        <tr><td>I-joists (24 × 5m spans)</td><td>~0.60 m³</td></tr>
+        <tr><td>Roof/floor decking</td><td>~0.40 m³</td></tr>
+        <tr><td><strong>Total structural wood</strong></td><td><strong>~3.3 m³</strong></td></tr>
+      </table>
+      <p class="calc-note">An equivalent timber frame home uses 8-12 m³ of structural timber. <strong>Hestia uses 60-70% less wood.</strong> The pallet geometry is inherently efficient: the stringers and blocks create the structure, the voids create the cavities. There is no waste.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section dark">
+  <div class="container">
+    <div class="section-label">2.3 — The Industrial Language</div>
+    <h2>EPAL as construction grammar</h2>
+
+    <p>Most pallet architecture projects use pallets "because they are cheap." This is the wrong framing. Pallets are cheap, but that is not why they work. They work because they are the most thoroughly standardised industrial object in Europe.</p>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>What makes the EPAL pallet a structural grammar</h3>
+        <ul>
+          <li><strong>Manufacturing tolerances:</strong> EPAL pallets are produced to EN 13698-1 with dimensional tolerances of ±3mm. This is tighter than most construction timber. The panels fit together without adjustment.</li>
+          <li><strong>Continental logistics infrastructure:</strong> 500 million in circulation. Every town has a pallet depot. Replacement is trivial. If a panel is damaged, you unscrew the OSB, swap the pallet, re-skin. The repair protocol is the same as the build protocol.</li>
+          <li><strong>Repairability:</strong> Individual deck boards can be replaced. Stringers can be sistered. The pallet was designed to be repaired in circulation — that design philosophy transfers directly to the building.</li>
+          <li><strong>Stackability:</strong> EPAL pallets stack with 144mm vertical repeat. This means wall courses stack naturally. No cutting, no shimming, no packing out. The geometry does the work.</li>
+          <li><strong>Replacement availability:</strong> In 50 years, when a panel needs replacement, the same pallet will still be manufactured to the same specification. The system does not depend on a single factory or a single supplier.</li>
+          <li><strong>Embedded dimensional standardisation:</strong> 1200 × 800mm is the module. Windows, doors, kitchen units, bathroom pods, solar panels — every product in Europe is designed around this grid, because it is the logistics grid. The building and the contents speak the same language.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>What this means for the builder</h3>
+        <p>You are not improvising with scrap wood. You are using a structural element that happens to be the most widely distributed object on the continent. The engineering has already been done — by the pallet manufacturers, by the standardisation bodies, by the logistics industry that relies on these tolerances every day.</p>
+        <p>The innovation is not the pallet. The innovation is noticing that the pallet is already a ribbed structural panel, and bonding OSB skins to it creates a composite wall system stronger than conventional timber frame, lighter than concrete, and more available than any proprietary system.</p>
+
+        <div class="info-box">
+          <p><strong>This is not "using pallets because they are cheap."</strong> This is using an existing industrial language as a construction grammar. That distinction matters enormously. It separates Hestia from every other pallet project that has ever been attempted.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt">
+  <div class="container">
+    <div class="section-label">2.4 — I-Joist Ubiquity</div>
+    <h2>The roof and floor system that is already everywhere</h2>
+
+    <p>I-joists are used in over 80% of new timber frame construction in Northern Europe. They are a standard product at every timber merchant. You do not order them. You buy them, like you buy timber.</p>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>Why I-joists match the Hestia philosophy</h3>
+        <ul>
+          <li><strong>Lighter than solid timber:</strong> Same strength, 40% less weight. One person can carry a 5m I-joist.</li>
+          <li><strong>Straighter than solid timber:</strong> Engineered LVL flanges with no knots, no warping, no splitting. The roof line stays straight for decades.</li>
+          <li><strong>Longer spans:</strong> A 240mm I-joist spans 5.5m as a floor, 6.5m as a roof. Fewer supports, fewer foundations, more open space.</li>
+          <li><strong>Cut and notch to manufacturer tables:</strong> The engineering is published. You follow the tables, you are within specification.</li>
+          <li><strong>OSB web matches Hestia wall material:</strong> The same material philosophy runs through the entire system. OSB is not an exotic product. It is the standard skin of modern timber construction.</li>
+          <li><strong>Standard hanger brackets available everywhere:</strong> Simpson, Pryda, or generic. Any hardware store. No special orders.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Standard I-joist spans</h3>
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Depth</th>
+              <th>Floor Span</th>
+              <th>Roof Span</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>200mm</td><td>4.5m</td><td>5.5m</td></tr>
+            <tr><td>240mm</td><td>5.5m</td><td>6.5m</td></tr>
+            <tr><td>300mm</td><td>6.5m</td><td>8.0m</td></tr>
+            <tr><td>360mm</td><td>7.5m</td><td>9.0m</td></tr>
+          </tbody>
+        </table>
+        <p class="calc-note">Spans assume domestic floor loading (1.5 kN/m²) and roof loading (0.75 kN/m² snow + dead load). Always consult manufacturer span tables for specific project conditions.</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="content-section">
   <div class="container">
-    <h2>Overview</h2>
-    <p>The Ribbed Composite Panel (RCP) is a building system that uses standard EPAL Euro pallets (1200 × 800 mm, rated 1500 kg dynamic load) arranged in interlocking grids, reinforced with engineered I-joists, and sheathed with OSB or cement-board. The result is an 84 m² building shell that costs approximately €20,000 in materials and labour, can be assembled by non-specialists in 14 active days, and requires no concrete or structural steel.</p>
+    <div class="section-label">2.5 — Ground Screws</div>
+    <h2>The foundation that takes three hours, not three weeks</h2>
 
-    <h2>Core Components</h2>
-    <div class="card-grid" style="margin-top: 32px;">
-      <div class="card">
-        <div class="card-icon">🪵</div>
-        <h3>EPAL Euro Pallets</h3>
-        <p>180–220 standard 1200×800 mm pallets per 84 m² module. Interlocked in grids to form floor, wall, and roof structures. Rated 1500 kg dynamic load each.</p>
+    <p>Helical ground screws are the fastest foundation system available. A two-person crew with a handheld hydraulic driver installs 12-16 screws in three to four hours. The sill beam is bolted on immediately. Wall panels go up the same day.</p>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>Ground screw vs concrete slab</h3>
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Aspect</th>
+              <th>Concrete Slab</th>
+              <th>Ground Screws</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Excavation</td><td>1-2 days + machinery</td><td>None</td></tr>
+            <tr><td>Formwork</td><td>1 day</td><td>None</td></tr>
+            <tr><td>Pour</td><td>4 hours + pump truck</td><td>N/A</td></tr>
+            <tr><td>Curing</td><td>7-28 days</td><td>Immediate</td></tr>
+            <tr><td>Weather dependency</td><td>Cannot pour in rain</td><td>Any weather</td></tr>
+            <tr><td>Reversibility</td><td>Demolition only</td><td>Unscrew and reuse</td></tr>
+            <tr><td>Load capacity</td><td>150-200 kN/m²</td><td>15-25 kN per point</td></tr>
+            <tr><td><strong>Time to weathertight</strong></td><td><strong>35-45 days</strong></td><td><strong>Same day</strong></td></tr>
+          </tbody>
+        </table>
       </div>
-      <div class="card">
-        <div class="card-icon">⚙️</div>
-        <h3>I-Joist Reinforcement</h3>
-        <p>Engineered timber I-joists reinforce pallet grids, providing structural continuity, racking resistance, and support for roof beams.</p>
+      <div class="col">
+        <h3>Specifications</h3>
+        <ul>
+          <li><strong>Diameter:</strong> 68mm helical</li>
+          <li><strong>Load capacity:</strong> 15-25 kN per screw (verified by manufacturer)</li>
+          <li><strong>Embedment depth:</strong> 1.2-2.5m depending on soil type</li>
+          <li><strong>Material:</strong> Galvanized steel, 50-year design life</li>
+          <li><strong>Installation:</strong> Handheld hydraulic driver, 10-15 minutes per screw</li>
+          <li><strong>For 37.5m² module:</strong> 12-16 screws, 3-4 hours, 2 people</li>
+        </ul>
+
+        <div class="info-box">
+          <p><strong>The critical path disappears.</strong> In conventional construction, the foundation is the longest critical path item: excavate, form, pour, cure, strip, backfill. With ground screws, the foundation is a half-day non-critical task. The build starts immediately. No concrete truck. No curing anxiety. No weather dependency.</p>
+        </div>
       </div>
-      <div class="card">
-        <div class="card-icon">🛡️</div>
-        <h3>OSB / Cement-Board Sheathing</h3>
-        <p>12 mm OSB or cement-board sheathing creates a rigid diaphragm, provides weather protection, and forms the substrate for insulation and interior finishes.</p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section alt">
+  <div class="container">
+    <div class="section-label">2.6 — Electricity in Hollow Cavities</div>
+    <h2>The pallet void is the conduit</h2>
+
+    <p>In a conventional timber frame wall, you drill holes through solid studs. In a Hestia wall, you lay cables in the voids. The pallet structure creates a natural conduit network — vertical chases from the stringers, horizontal chases from the deck boards — that needs no drilling, no weakening of structural members, and no fishing wires through insulation.</p>
+
+    <div class="two-col">
+      <div class="col">
+        <h3>Conventional construction</h3>
+        <ul>
+          <li>Solid studs at 400-600mm centres</li>
+          <li>Must drill through studs (notching prohibited by code)</li>
+          <li>Holes weaken structural members</li>
+          <li>20mm holes max in 100mm studs = tight fit</li>
+          <li>3-4 cables per hole maximum</li>
+          <li>Outlet placement fixed to stud positions</li>
+          <li>Retrofit: impossible without demolition</li>
+          <li><strong>First-fix electrical: 2-3 days</strong></li>
+        </ul>
       </div>
-      <div class="card">
-        <div class="card-icon">🧊</div>
-        <h3>Mineral Wool Insulation</h3>
-        <p>100–150 mm mineral wool in walls, roof, and floor cavities. Non-combustible, moisture-resistant, and recyclable.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🌧️</div>
-        <h3>Breathable Membrane + Roofing</h3>
-        <p>Waterproof breathable membrane under Onduline bitumen sheets, corrugated metal, or tiles. Protects structure while allowing vapour escape.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🔩</div>
-        <h3>Ground Screw Foundation</h3>
-        <p>12–16 adjustable ground screws (or screw piles) replace concrete foundations. Removable, reusable, minimal soil disturbance.</p>
+      <div class="col">
+        <h3>Hestia pallet cavity</h3>
+        <ul>
+          <li>Pallet void space: ~60-65% of volume is empty</li>
+          <li>Three stringers create vertical chases at 400mm centres (by design)</li>
+          <li>Deck boards create horizontal chases every 120-150mm</li>
+          <li><strong>Natural conduit network — no drilling required</strong></li>
+          <li>Cables run freely between OSB faces</li>
+          <li>Full 145mm depth available (vs 100mm stud cavity)</li>
+          <li>Outlet placement: anywhere on the panel face</li>
+          <li>Retrofit: remove one OSB face, re-route, re-fasten</li>
+          <li><strong>First-fix electrical: 4-6 hours</strong></li>
+        </ul>
       </div>
     </div>
 
-    <h2>Performance Targets</h2>
-    <table>
-      <thead>
-        <tr><th>Metric</th><th>Target</th><th>Conventional (Portugal)</th><th>Notes</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>U-value (walls)</td><td>0.25–0.35 W/m²K</td><td>0.35–0.50</td><td>Comparable to timber frame</td></tr>
-        <tr><td>U-value (roof)</td><td>0.20–0.30 W/m²K</td><td>0.30–0.50</td><td>With 150–200 mm insulation</td></tr>
-        <tr><td>Interior temperature</td><td>18–24°C (>90% of hours)</td><td>Variable</td><td>No active heating/cooling in Algarve</td></tr>
-        <tr><td>Air tightness</td><td>3–5 ACH50</td><td>5–10</td><td>Achievable with careful sealing</td></tr>
-        <tr><td>Structural settlement</td><td>&lt;5 mm</td><td>Negligible</td><td>Monitored with inclinometers</td></tr>
-        <tr><td>Embodied carbon</td><td>&lt;200 kg CO₂e/m²</td><td>300–500</td><td>No concrete, no steel</td></tr>
-        <tr><td>Lifespan</td><td>20–30 years</td><td>50+</td><td>With cladding and maintenance</td></tr>
-      </tbody>
-    </table>
+    <div class="calc-block">
+      <h4>Cable routing comparison</h4>
+      <table>
+        <tr>
+          <th>Task</th>
+          <th>Conventional</th>
+          <th>Hestia</th>
+        </tr>
+        <tr>
+          <td>First-fix electrical</td>
+          <td>2-3 days (drill, fish, seal)</td>
+          <td>4-6 hours (lay in voids)</td>
+        </tr>
+        <tr>
+          <td>Cable capacity per route</td>
+          <td>3-4 cables per hole</td>
+          <td>Unlimited in void</td>
+        </tr>
+        <tr>
+          <td>Adding a circuit later</td>
+          <td>Demolition required</td>
+          <td>Remove face, add cable</td>
+        </tr>
+        <tr>
+          <td>Outlet placement</td>
+          <td>Fixed to stud positions</td>
+          <td>Anywhere on panel</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
 
-    <h2>Structural Engineering</h2>
-    <p>The RCP system is being reviewed by a Portuguese-licensed structural engineer for compliance with:</p>
-    <ul>
-      <li><strong>Eurocode 1:</strong> Wind loads (Algarve design wind speed)</li>
-      <li><strong>Eurocode 5:</strong> Timber structures (I-joist and pallet wood properties)</li>
-      <li><strong>Eurocode 8:</strong> Seismic design (Portugal Zone 1.3/1.4)</li>
-      <li><strong>Eurocode 6:</strong> Masonry (not applicable — RCP replaces masonry)</li>
-    </ul>
-    <p>Independent testing by LNEC (National Laboratory for Civil Engineering) will verify panel racking resistance, compressive capacity, and connection strength.</p>
+<section class="content-section">
+  <div class="container">
+    <div class="section-label">2.7 — Mineral Wool Infill</div>
+    <h2>Blown in two hours. Breathable forever.</h2>
 
-    <h2>Build Sequence (10 Days)</h2>
-    <div class="timeline" style="margin-top: 24px;">
-      <div class="timeline-item completed">
-        <div class="date">Day 1</div>
-        <h4>Foundation + Floor</h4>
-        <p>Install ground screws, lay pallet floor grid (7×12 m), secure and level, install OSB subfloor.</p>
-      </div>
-      <div class="timeline-item completed">
-        <div class="date">Day 2–3</div>
-        <h4>Wall Panels — Prefabrication</h4>
-        <p>Cut I-joists, assemble wall frames, attach OSB sheathing, install insulation, label panels.</p>
-      </div>
-      <div class="timeline-item completed">
-        <div class="date">Day 4</div>
-        <h4>Wall Erection</h4>
-        <p>Lift and secure all 4 wall panels, brace, check plumb, connect to floor frame.</p>
-      </div>
-      <div class="timeline-item completed">
-        <div class="date">Day 5</div>
-        <h4>Roof Structure</h4>
-        <p>Install roof beams, pallet grid, roof sheathing, membrane, and roofing material.</p>
-      </div>
-      <div class="timeline-item completed">
-        <div class="date">Day 6</div>
-        <h4>Windows, Doors, Sealing</h4>
-        <p>Install windows and door, seal all joints with foam/tape, external membrane, weathertight.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="date">Day 7</div>
-        <h4>Electrics</h4>
-        <p>Run cable, install breaker box, sockets, switches, LED lights. Test circuits.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="date">Day 8</div>
-        <h4>Plumbing</h4>
-        <p>Install water tank, run PEX pipe, connect sink/shower, test pressure and drainage.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="date">Day 9</div>
-        <h4>Insulation + Interior</h4>
-        <p>Fill gaps, install internal wall/ceiling lining, floor finish, seal joints.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="date">Day 10</div>
-        <h4>Systems + Testing</h4>
-        <p>Install solar (if off-grid), test all systems, check for drafts, thermal camera scan.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="date">Day 11–12</div>
-        <h4>Interior Fit-Out</h4>
-        <p>Install kitchen, bathroom, storage, sleeping area. Paint and seal surfaces.</p>
-      </div>
-      <div class="timeline-item">
-        <div class="date">Day 13–14</div>
-        <h4>Handover + Monitoring</h4>
-        <p>Document everything, install 20+ sensors, calibrate, begin 12-month data collection.</p>
-      </div>
+    <p>The 145mm cavity between the OSB skins is filled with blown rock wool by a professional contractor in a single morning. The material is fire-resistant, sound-absorbing, vapour-open, and will outlast the building.</p>
+
+    <div class="calc-block">
+      <h4>Blow-in rock wool: time and material calculation</h4>
+      <table>
+        <tr><td>Wall area (84m² home, 2.5m height, 26m perimeter)</td><td>~65 m²</td></tr>
+        <tr><td>Roof area</td><td>~45 m²</td></tr>
+        <tr><td>Floor perimeter</td><td>~15 m²</td></tr>
+        <tr><td>Total cavity area</td><td>~125 m²</td></tr>
+        <tr><td>Cavity depth</td><td>145 mm</td></tr>
+        <tr><td><strong>Total cavity volume</strong></td><td><strong>~18.1 m³</strong></td></tr>
+        <tr><td>Rock wool density (blown)</td><td>35 kg/m³</td></tr>
+        <tr><td><strong>Total rock wool required</strong></td><td><strong>~634 kg</strong></td></tr>
+        <tr><td>Professional installation rate</td><td>8-12 m³/hour</td></tr>
+        <tr><td><strong>Time to fill entire home</strong></td><td><strong>2-2.5 hours</strong></td></tr>
+      </table>
+      <p class="calc-note">Compare to batt installation: 2-3 days of cutting, fitting, compressing, and sealing gaps. Compare to spray foam: 1 day application + 24 hours curing + toxic off-gassing period. Blown rock wool is the fastest, safest, and most thermally effective option.</p>
     </div>
 
-    <h2>Cost Breakdown (Shell A, 84 m²)</h2>
-    <p><strong>Hard rules:</strong> Shell costs €20,000 in materials. Home costs €50,000 in materials (€20k shell + €30k interior, kitchen, bathroom, solar, LED). Labour is <strong>not a cost</strong> — self-provided through family, friends, and community volunteers following a step-by-step protocol. Build time: 14 days. Primary metric: <strong>€ per m²</strong>.</p>
-    <table>
-      <thead>
-        <tr><th>Category</th><th>Estimated Cost (€)</th><th>€/m²</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Pallets (180–220 units)</td><td>1,800–2,640</td><td>21–31</td></tr>
-        <tr><td>I-joists (40–50 units)</td><td>800–1,250</td><td>10–15</td></tr>
-        <tr><td>OSB sheathing (90 sheets)</td><td>1,080–1,620</td><td>13–19</td></tr>
-        <tr><td>Cement-board (70 sheets)</td><td>1,050–1,400</td><td>13–17</td></tr>
-        <tr><td>Mineral wool insulation (140 m²)</td><td>1,120–1,680</td><td>13–20</td></tr>
-        <tr><td>Membrane + roofing (110 m²)</td><td>550–880</td><td>7–10</td></tr>
-        <tr><td>Screws, brackets, fixings</td><td>300–500</td><td>4–6</td></tr>
-        <tr><td>Electrics</td><td>500–800</td><td>6–10</td></tr>
-        <tr><td>Plumbing</td><td>400–600</td><td>5–7</td></tr>
-        <tr><td>Windows (5–6 units)</td><td>750–1,800</td><td>9–21</td></tr>
-        <tr><td>Door (2 units)</td><td>200–400</td><td>2–5</td></tr>
-        <tr><td>Ground screws (24–28)</td><td>600–1,120</td><td>7–13</td></tr>
-        <tr><td>Tools (if not owned)</td><td>500–1,000</td><td>6–12</td></tr>
-        <tr><td>Sensors + monitoring</td><td>300–500</td><td>4–6</td></tr>
-        <tr><td>Interior fit-out (flooring, paint, trim)</td><td>2,000–4,000</td><td>24–48</td></tr>
-        <tr><td><strong>Subtotal (shell materials)</strong></td><td><strong>€11,250–€17,190</strong></td><td><strong>134–205</strong></td></tr>
-        <tr><td>Contingency (15%)</td><td>1,700–3,300</td><td>20–39</td></tr>
-        <tr><td><strong>Total shell (materials + contingency)</strong></td><td><strong>€12,950–€20,490</strong></td><td><strong>154–244</strong></td></tr>
-        <tr><td>Kitchen (cabinets, counters, appliances)</td><td>4,000–6,000</td><td>48–71</td></tr>
-        <tr><td>Bathroom (toilet, sink, shower, fixtures)</td><td>3,000–5,000</td><td>36–60</td></tr>
-        <tr><td>Solar + battery (off-grid)</td><td>5,000–8,000</td><td>60–95</td></tr>
-        <tr><td>LED lighting + smart home</td><td>1,000–2,000</td><td>12–24</td></tr>
-        <tr><td>Additional interior (storage, furniture, textiles)</td><td>8,000–12,000</td><td>95–143</td></tr>
-        <tr><td><strong>Total home (shell + interior, materials only)</strong></td><td><strong>€35,000–€50,000</strong></td><td><strong>417–595</strong></td></tr>
-      </tbody>
-    </table>
-    <p><em>Target: €20,000 shell + €30,000 interior = €50,000 total home, all materials only. Labour is self-provided by 4–6 people over 14 days, following a step-by-step protocol — no hired contractors, no specialist trades. The 50% rule is a design boundary: if a system requires paid labour exceeding 50% of materials, it is not efficient enough. The Amish and Jehovah's Witnesses build entire structures in days with community volunteers. That is the reference model.</em></p>
+    <div class="info-box">
+      <p><strong>The vapour-open assembly.</strong> OSB is vapour-permeable. Rock wool is vapour-permeable. Limewash is vapour-permeable. The entire wall assembly breathes. Moisture moves through the wall, does not get trapped, and does not cause rot. This is the opposite of a foam-sealed airtight envelope, which requires mechanical ventilation and risks condensation at any failure point.</p>
+    </div>
+  </div>
+</section>
 
-    <h2>Cost Comparison: Hestia vs. Conventional Construction</h2>
-    <p>Primary metric: <strong>€ per m²</strong>. The goal is a finished house that costs no more per m² than the land it stands on. In non-central Algarve, buildable land averages ~€100/m². Hestia targets €595/m² finished — a 6× premium over land, versus 30–50× for conventional construction. <strong>Labour is not a cost in the Hestia model</strong> — it is self-provided through community volunteers, following a step-by-step protocol. The Amish and Jehovah's Witnesses build entire structures in days with volunteer teams. That is the reference, not bloated real estate construction companies.</p>
-    <table>
-      <thead>
-        <tr><th>Metric</th><th>Hestia RCP (84 m²)</th><th>Conventional (DE/SE/UK avg)</th><th>Modular Prefab (A-hus, SE)</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Shell cost (materials only)</td><td>€12,950–€20,000</td><td>€210,000–€380,000</td><td>€150,000–€220,000</td></tr>
-        <tr><td>Home cost (materials only)</td><td>€35,000–€50,000</td><td>€280,000–€450,000</td><td>€200,000–€280,000</td></tr>
-        <tr><td><strong>Cost per m² (shell)</strong></td><td><strong>€154–€238</strong></td><td><strong>€2,500–€4,500</strong></td><td><strong>€1,800–€2,600</strong></td></tr>
-        <tr><td><strong>Cost per m² (home)</strong></td><td><strong>€417–€595</strong></td><td><strong>€3,300–€5,400</strong></td><td><strong>€2,400–€3,300</strong></td></tr>
-        <tr><td>Land cost per m² (Algarve, non-central)</td><td>~€100</td><td>~€100</td><td>~€100</td></tr>
-        <tr><td>House-to-land cost ratio</td><td>4–6:1</td><td>30–50:1</td><td>20–30:1</td></tr>
-        <tr><td>Build time (shell)</td><td>14 days</td><td>12–18 months</td><td>3–6 months</td></tr>
-        <tr><td>Build time (home)</td><td>14 days</td><td>18–24 months</td><td>6–9 months</td></tr>
-        <tr><td>Concrete curing</td><td>None</td><td>12 weeks minimum</td><td>12 weeks minimum</td></tr>
-        <tr><td>Labour hours (self-build)</td><td>200–400 hrs</td><td>2,000–3,000 hrs</td><td>1,500–2,500 hrs</td></tr>
-        <tr><td>Labour model</td><td>Self-build, volunteers, community</td><td>Hired trades (€80–150/hr)</td><td>Factory + crane crew</td></tr>
-        <tr><td>Embodied carbon</td><td>&lt;200 kg CO₂e/m²</td><td>300–500 kg CO₂e/m²</td><td>250–400 kg CO₂e/m²</td></tr>
-        <tr><td>Foundation type</td><td>Ground screws</td><td>Concrete slab</td><td>Concrete slab</td></tr>
-        <tr><td>Specialist skills</td><td>None — self-build with volunteers</td><td>Architect, engineer, 5+ trades</td><td>Factory + crane crew</td></tr>
-      </tbody>
-    </table>
-    <p><em>Sources: Destatis (Germany construction cost index 2025), SCB/Boverket (Sweden building costs 2025), ONS/NHBC (UK construction output 2025), A-hus (Swedish modular prefab pricing), Swedish builder interview (2,000–3,000 hrs conventional build), Amish and Jehovah's Witness community build practices (volunteer labour model), Idealista/Confidencial Imobiliario (Algarve land prices 2025–2026).</em></p>
+<section class="content-section dark">
+  <div class="container">
+    <div class="section-label">2.8 — The Four + Two Equation</div>
+    <h2>Components and tools. Nothing else.</h2>
 
-    <h2>Sustainability</h2>
-    <ul>
-      <li><strong>No concrete:</strong> Cement industry = 8% of global CO₂. Eliminated.</li>
-      <li><strong>No structural steel:</strong> Mining and smelting eliminated.</li>
-      <strong>Circular materials:</strong> 2.5 billion pallets circulate in the EU. Reusing 80–100 per home turns waste into resource.</li>
-      <li><strong>Local sourcing:</strong> Pallets available within 50 km of almost any EU location. No long-distance transport.</li>
-      <li><strong>Recyclable:</strong> At end of life, pallets become mulch or biomass. Mineral wool is recyclable. OSB is biodegradable.</li>
-      <li><strong>Embodied carbon target:</strong> &lt;200 kg CO₂e/m² vs. 300–500 for conventional construction.</li>
-    </ul>
+    <div class="cta-hero-components" style="margin-bottom:24px;">
+      <div class="comp-chip"><span class="comp-icon">📦</span> EPAL Pallet</div>
+      <div class="comp-chip"><span class="comp-icon">🪵</span> OSB3 Board</div>
+      <div class="comp-chip"><span class="comp-icon">📐</span> I-Joist</div>
+      <div class="comp-chip"><span class="comp-icon">⚓</span> Ground Screw</div>
+    </div>
 
-    <h2>Documentation</h2>
-    <p>All technical documentation is published on our GitHub repository under CC BY-SA 4.0:</p>
-    <ul>
-      <li><a href="https://github.com/sebastianbrosche/hestiafoundation/blob/main/docs/build/build_protocol_shell_a.md" target="_blank">Build Protocol — Shell A (complete manual)</a></li>
-      <li><a href="https://github.com/sebastianbrosche/hestiafoundation/blob/main/docs/build/WORKSHOP_FACILITATOR_GUIDE.md" target="_blank">Workshop Facilitator Guide</a></li>
-      <li><a href="https://github.com/sebastianbrosche/hestiafoundation/blob/main/docs/build/MONITORING_FRAMEWORK.md" target="_blank">Monitoring & Evaluation Framework</a></li>
-      <li><a href="https://github.com/sebastianbrosche/hestiafoundation/blob/main/docs/build/SUPPLIER_LIST_PORTUGAL.md" target="_blank">Supplier List (Portugal)</a></li>
-    </ul>
+    <div class="cta-hero-tools" style="margin-bottom:32px;">
+      <span class="tool-label">+</span>
+      <span class="tool-item">Framing nail gun</span>
+      <span class="tool-label">+</span>
+      <span class="tool-item">Circular saw</span>
+      <span class="tool-label">=</span>
+      <span class="tool-result">A home.</span>
+    </div>
+
+    <p style="text-align:center; max-width:700px; margin:0 auto; font-size:1.1rem; line-height:1.7;">
+      Total tool investment: €300-550. Total material cost for a complete 84m² home: ~€50,000. 
+      You can take your car to any builders merchant today, buy everything you need, 
+      and be weathertight by the weekend.
+    </p>
+
+    <div style="text-align:center; margin-top:40px;">
+      <a href="build.html" class="btn btn-primary">See the 48-hour build protocol →</a>
+    </div>
   </div>
 </section>
 
@@ -255,42 +461,57 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="logo"><div class="logo-icon">⌂</div> Hestia Foundation</div>
-        <p>Open-source construction systems for affordable, permanent, off-grid family housing. Lagos, Algarve, Portugal.</p>
+        <div class="footer-logo">⌂ Hestia</div>
+        <p>An open-source foundation for scalable affordable housing in Europe.</p>
+        <div class="footer-license">
+          <span class="license-badge">CC BY-SA 4.0</span>
+          <span>All designs, data, and documentation</span>
+        </div>
       </div>
       <div class="footer-links">
         <h4>Project</h4>
         <ul>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#manifesto">Manifesto</a></li>
           <li><a href="the-system.html">The System</a></li>
-          <li><a href="prototype.html">Prototype</a></li>
-          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="build.html">Build Protocol</a></li>
+          <li><a href="costs.html">Cost Breakdown</a></li>
+          <li><a href="research.html">Research & Data</a></li>
         </ul>
       </div>
       <div class="footer-links">
-        <h4>Get Involved</h4>
+        <h4>Resources</h4>
         <ul>
-          <li><a href="get-involved.html">Volunteer</a></li>
-          <li><a href="partners.html">Partner</a></li>
-          <li><a href="grants.html">Fund</a></li>
-          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub Repository</a></li>
+          <li><a href="#">CAD Files (Coming)</a></li>
+          <li><a href="#">Build Manual (Coming)</a></li>
+          <li><a href="#">Sensor Dashboard (Coming)</a></li>
         </ul>
       </div>
       <div class="footer-links">
-        <h4>Connect</h4>
+        <h4>Contact</h4>
         <ul>
-          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub</a></li>
-          <li><a href="mailto:info@hestiafoundation.org">Email</a></li>
-          <li><a href="resources.html">Resources</a></li>
+          <li><a href="mailto:info@hestiafoundation.org">info@hestiafoundation.org</a></li>
+          <li>Lagos, Algarve, Portugal</li>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">github.com/sebastianbrosche/hestiafoundation</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Hestia Foundation. CC BY-SA 4.0.</span>
-      <span><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">Open Source on GitHub ↗</a></span>
+      <p>© 2026 Hestia Foundation. All wrongs reserved. Open source forever.</p>
+      <p class="footer-quote">"Home is not a place. Home is a system."</p>
     </div>
   </div>
 </footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+</script>
 
 </body>
 </html>
