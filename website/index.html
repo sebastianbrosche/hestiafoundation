@@ -3,294 +3,761 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hestia Foundation — Open-Source Housing for Everyone</title>
-  <meta name="description" content="Hestia Foundation designs open-source construction systems for affordable, permanent, off-grid family housing. Shell: €20,000. Home: €50,000. Built in 14 days. No labour cost.">
-  <meta property="og:title" content="Hestia Foundation — Open-Source Housing for Everyone">
-  <meta property="og:description" content="Shell: €20,000. Home: €50,000. Built in 14 days. Open source, DIY. EPAL pallet-based construction system in Lagos, Portugal.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://hestiafoundation.org/">
-  <meta property="og:site_name" content="Hestia Foundation">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Hestia Foundation — Open-Source Housing for Everyone">
-  <meta name="twitter:description" content="Shell: €20,000. Home: €50,000. Built in 14 days. Open source, DIY. EPAL pallet-based construction system in Lagos, Portugal.">
-  <meta name="theme-color" content="#2d5016">
-  <link rel="canonical" href="https://hestiafoundation.org/">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Hestia — Open-Source Housing System</title>
+  <meta name="description" content="An open-source foundation for scalable affordable housing in Europe. EPAL pallet-based construction system. €200-400/m². Assembled in 10 days.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Hestia Foundation",
-    "url": "https://hestiafoundation.org",
-    "logo": "https://hestiafoundation.org/favicon.svg",
-    "description": "Hestia Foundation designs and distributes open-source construction systems for affordable, permanent, off-grid family housing.",
-    "foundingDate": "2026-05",
-    "location": {
-      "@type": "Place",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Lagos",
-        "addressRegion": "Algarve",
-        "addressCountry": "PT"
-      }
-    },
-    "sameAs": [
-      "https://github.com/sebastianbrosche/hestiafoundation"
-    ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "email": "info@hestiafoundation.org",
-      "contactType": "General Inquiries"
-    }
-  }
-  </script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
 
-<nav>
-  <div class="container">
-    <a href="index.html" class="logo">
-      <div class="logo-icon">⌂</div>
-      Hestia Foundation
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-mark">⌂</span>
+      <span class="nav-logo-text">Hestia</span>
     </a>
     <ul class="nav-links">
-      <li><a href="about.html">About</a></li>
-      <li><a href="the-system.html">The System</a></li>
-      <li><a href="prototype.html">Prototype</a></li>
-      <li><a href="grants.html">Grants</a></li>
-      <li><a href="timeline.html">Timeline</a></li>
-      <li><a href="faq.html">FAQ</a></li>
-      <li><a href="get-involved.html" class="btn btn-primary" style="padding:8px 20px;font-size:0.9rem;">Get Involved</a></li>
+      <li><a href="#manifesto">Manifesto</a></li>
+      <li><a href="#system">The System</a></li>
+      <li><a href="#costs">Costs</a></li>
+      <li><a href="#build">Build</a></li>
+      <li><a href="#data">Data</a></li>
+      <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="nav-cta">GitHub ↗</a></li>
     </ul>
-    <button class="mobile-menu-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+    <button class="nav-mobile" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
   </div>
 </nav>
 
+<!-- Hero -->
 <section class="hero">
+  <div class="hero-bg"></div>
   <div class="container">
-    <h1>A €20,000 Shell.<br>A €50,000 Home.<br>Built in 14 Days.<br>Open Source, DIY.</h1>
-    <p class="tagline">Hestia Foundation designs and distributes open-source construction systems for affordable, permanent, off-grid family housing — starting with the EPAL pallet-based Shell A prototype in Lagos, Portugal.</p>
-    <div class="cta-group">
-      <a href="the-system.html" class="btn btn-primary">Explore the System →</a>
-      <a href="https://github.com/sebastianbrosche/hestiafoundation" class="btn btn-secondary" target="_blank">View on GitHub ↗</a>
+    <div class="hero-kicker">An open-source foundation for scalable affordable housing in Europe</div>
+    <h1 class="hero-title">
+      Housing is a<br>logistics problem.<br>We solved it.
+    </h1>
+    <p class="hero-sub">
+      The Hestia system turns standard EPAL Euro pallets — the most universal logistics platform on Earth — into high-performance, thermally efficient, permanent housing. No concrete. No steel. No patents. No specialists.
+    </p>
+    <div class="hero-cta">
+      <a href="#system" class="btn btn-primary">See how it works →</a>
+      <a href="#costs" class="btn btn-secondary">€200-400/m² breakdown ↓</a>
     </div>
-  </div>
-</section>
-
-<section class="stats-bar">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="stat">
-        <div class="stat-number">€20,000</div>
-        <div class="stat-label">Shell (materials only)</div>
+    <div class="hero-specs">
+      <div class="spec-item">
+        <div class="spec-num">€200-400</div>
+        <div class="spec-label">per m² complete</div>
       </div>
-      <div class="stat">
-        <div class="stat-number">€50,000</div>
-        <div class="stat-label">Home (materials only)</div>
+      <div class="spec-item">
+        <div class="spec-num">10 days</div>
+        <div class="spec-label">4-person assembly</div>
       </div>
-      <div class="stat">
-        <div class="stat-number">14</div>
-        <div class="stat-label">Days to build</div>
+      <div class="spec-item">
+        <div class="spec-num">37.5-84</div>
+        <div class="spec-label">m² standard modules</div>
       </div>
-      <div class="stat">
-        <div class="stat-number">84m²</div>
-        <div class="stat-label">Shell A size</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">0</div>
-        <div class="stat-label">Paid labour required</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-header">
-      <h2>The Housing Crisis Is Solvable</h2>
-      <p>Since 2013, EU house prices have risen 60%. Portugal's have risen 94% — the 4th highest in Europe. We're building a different path.</p>
-    </div>
-    <div class="card-grid">
-      <div class="card">
-        <div class="card-icon">🏠</div>
-        <h3>Affordable by Design</h3>
-        <p>The shell — walls, roof, floor, windows, door — costs €20,000 in materials. The finished home costs €50,000, with €30,000 for kitchen, bathroom, solar, LED lighting, and interior finishes that make it genuinely impressive. All materials. No labour cost. Self-built with family and friends following a step-by-step protocol.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🔓</div>
-        <h3>Open Source, DIY</h3>
-        <p>Every plan, every calculation, every cost breakdown is published under CC BY-SA 4.0. Download, modify, build. No permission needed.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">⚡</div>
-        <h3>Fast & Simple</h3>
-        <p>4–6 people, basic tools, 14 active days. No concrete, no steel, no specialist contractors. Designed for self-build following a step-by-step protocol — like IKEA assembly for a house.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">♻️</div>
-        <h3>Circular & Low-Carbon</h3>
-        <p>2.5 billion pallets circulate in the EU annually. We turn that waste stream into homes. No concrete = no 8% of global CO₂.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">📊</div>
-        <h3>Data-Driven</h3>
-        <p>20+ sensors monitor every wall, roof, and joint for 12 months. All data published openly. Evidence, not ideology.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🇪🇺</div>
-        <h3>EU-Aligned</h3>
-        <p>Aligned with the New European Bauhaus, Horizon Europe, and the European Green Deal. Applying for €4M in EU funding.</p>
+      <div class="spec-item">
+        <div class="spec-num">0 patents</div>
+        <div class="spec-label">CC BY-SA 4.0</div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="alt">
+<!-- Manifesto -->
+<section id="manifesto" class="manifesto">
   <div class="container">
-    <div class="section-header">
-      <h2>The Ribbed Composite Panel (RCP)</h2>
-      <p>Our building system uses interlocking EPAL pallets reinforced with I-joists and sheathed with OSB — engineered, tested, and monitored.</p>
+    <div class="section-label">01 — The Problem</div>
+    <h2 class="section-title-manifesto">Why housing became unaffordable</h2>
+    
+    <div class="manifesto-grid">
+      <div class="manifesto-item">
+        <div class="manifesto-num">1</div>
+        <h3>The concrete trap</h3>
+        <p>Modern construction is addicted to concrete — 8% of global CO₂, requiring specialist labor, heavy machinery, and months of curing. A concrete foundation alone costs €15,000-30,000 before you've built a single wall.</p>
+      </div>
+      <div class="manifesto-item">
+        <div class="manifesto-num">2</div>
+        <h3>The labor monopoly</h3>
+        <p>Building a house requires 12+ different trades, each with their own pricing power, scheduling conflicts, and markup chains. Labor becomes 50-70% of total cost. Self-build is technically illegal in many jurisdictions without certification.</p>
+      </div>
+      <div class="manifesto-item">
+        <div class="manifesto-num">3</div>
+        <h3>The proprietary lock-in</h3>
+        <p>Every "innovative" building system is patented, licensed, and controlled. You can't modify it. You can't improve it. You can't afford it. The profit model requires scarcity.</p>
+      </div>
+      <div class="manifesto-item">
+        <div class="manifesto-num">4</div>
+        <h3>The scale fallacy</h3>
+        <p>Industrial housing promises economies of scale but delivers identical boxes, transported by diesel trucks, dependent on global supply chains. A factory 500km away is not local. A module on a truck is not agile.</p>
+      </div>
     </div>
-    <div class="feature-row">
-      <div class="feature-content">
-        <h3>How It Works</h3>
-        <p>Standard 1200×800 mm EPAL pallets are arranged in interlocking grids. I-joist reinforcement provides structural rigidity. OSB or cement-board sheathing creates a weathertight envelope. Mineral wool insulation ensures thermal comfort.</p>
-        <ul>
-          <li>Wind loads per Eurocode 1</li>
-          <li>Seismic compliance per Eurocode 8</li>
-          <li>Thermal comfort 18–24°C without heating/cooling</li>
-          <li>20–30 year lifespan with maintenance</li>
+    
+    <div class="manifesto-quote">
+      <blockquote>
+        "The problem of architecture has always been the problem of housing the greatest number of people at the least cost with the greatest dignity. We have the technology. What we lack is the system."
+      </blockquote>
+      <cite>— after Buckminster Fuller, via Hestia</cite>
+    </div>
+  </div>
+</section>
+
+<!-- Why Open Systems Win -->
+<section class="philosophy">
+  <div class="container">
+    <div class="section-label">02 — The Principle</div>
+    <h2 class="section-title">Why open systems beat proprietary systems</h2>
+    
+    <div class="comparison">
+      <div class="comparison-side comparison-closed">
+        <div class="comparison-header">
+          <span class="comparison-icon">🔒</span>
+          <h3>Proprietary System</h3>
+        </div>
+        <ul class="comparison-list">
+          <li class="negative">Patent license fees: €5,000-15,000</li>
+          <li class="negative">Certified installers only</li>
+          <li class="negative">Single supplier dependency</li>
+          <li class="negative">No modifications allowed</li>
+          <li class="negative">Closed documentation</li>
+          <li class="negative">Obsolescence by design</li>
+          <li class="negative">Waste when system fails</li>
         </ul>
-        <a href="the-system.html" class="card-link">Read the full technical spec →</a>
       </div>
-      <div class="feature-visual">
-        <div class="icon-lg">🪵</div>
-        <h4>80–100 Pallets</h4>
-        <p>Plus I-joists, OSB sheathing, insulation, and roofing materials</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-header">
-      <h2>Shell A Prototype — Q3 2026</h2>
-      <p>Our first build will prove the system works, collect 12 months of sensor data, and produce a complete open-source build manual.</p>
-    </div>
-    <div class="feature-row reverse">
-      <div class="feature-content">
-        <h3>Build in Algarve, Portugal</h3>
-        <p>A team of 4–6 people will construct the 84 m² Shell A over 14 active days in summer 2026. The prototype includes electrics, plumbing, insulation, and a 20-sensor monitoring network.</p>
-        <ul>
-          <li>Target cost: €50,000 (materials + labour + interior fit-out)</li>
-          <li>Independent structural testing by LNEC</li>
-          <li>University of Algarve student research partnership</li>
-          <li>Real-time sensor dashboard published openly</li>
+      <div class="comparison-vs">VS</div>
+      <div class="comparison-side comparison-open">
+        <div class="comparison-header">
+          <span class="comparison-icon">🔓</span>
+          <h3>Hestia Open System</h3>
+        </div>
+        <ul class="comparison-list">
+          <li class="positive">Zero license fees. Ever.</li>
+          <li class="positive">Any builder, any skill level</li>
+          <li class="positive">Materials from any supplier</li>
+          <li class="positive">Fork and improve freely</li>
+          <li class="positive">Full CAD + docs online</li>
+          <li class="positive">Community-maintained</li>
+          <li class="positive">Components reusable/recyclable</li>
         </ul>
-        <a href="prototype.html" class="card-link">View prototype build plan →</a>
       </div>
-      <div class="feature-visual">
-        <div class="icon-lg">🔬</div>
-        <h4>12-Month Monitoring</h4>
-        <p>Temperature, humidity, structural deflection, energy use — all published in real time</p>
+    </div>
+    
+    <div class="principle-cards">
+      <div class="principle-card">
+        <div class="principle-icon">🏠</div>
+        <h4>Dignity through ownership</h4>
+        <p>A family that builds their own home understands it, maintains it, and passes that knowledge on. Housing as agency, not charity.</p>
+      </div>
+      <div class="principle-card">
+        <div class="principle-icon">📦</div>
+        <h4>Local assembly, global knowledge</h4>
+        <p>Like Linux, the intelligence is distributed. The design is global; the manufacturing is local. Every town has pallets. Every town can build.</p>
+      </div>
+      <div class="principle-card">
+        <div class="principle-icon">⚡</div>
+        <h4>Speed without shortcuts</h4>
+        <p>10 days isn't rushed — it's optimized. No concrete curing. No steel welding. No waiting for specialists. Just precise, repeatable steps.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="alt">
+<!-- The System -->
+<section id="system" class="system">
   <div class="container">
-    <div class="section-header">
-      <h2>Open-Source Community</h2>
-      <p>We're not a company selling kits. We're a non-profit publishing knowledge. Join us.</p>
+    <div class="section-label">03 — The System</div>
+    <h2 class="section-title">EPAL pallet geometry as architecture</h2>
+    <p class="section-subtitle">The most distributed, standardized, and underutilized structural element in the world</p>
+    
+    <div class="system-overview">
+      <div class="system-diagram">
+        <div class="diagram-title">Shell A — 37.5m² Module</div>
+        <div class="diagram-structure">
+          <div class="diagram-dim">5.0m × 7.5m footprint</div>
+          <div class="diagram-grid">
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+            <div class="grid-cell">P</div>
+          </div>
+          <div class="diagram-legend">
+            <span class="legend-item"><span class="legend-box pallet"></span> EPAL Pallet (1200×800mm)</span>
+            <span class="legend-item"><span class="legend-box ijoist"></span> I-Joist Spine</span>
+            <span class="legend-item"><span class="legend-box osb"></span> OSB Sheathing</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="system-logic">
+        <h3>System Logic</h3>
+        <div class="logic-steps">
+          <div class="logic-step">
+            <div class="logic-num">01</div>
+            <div class="logic-content">
+              <h4>EPAL pallets as structural lattice</h4>
+              <p>Standard 1200×800mm Euro pallets interlock in alternating orientations, creating a rigid 2D grid. The existing pallet structure — three stringers, deck boards, blocks — becomes the wall frame. No cutting required for standard modules.</p>
+            </div>
+          </div>
+          <div class="logic-step">
+            <div class="logic-num">02</div>
+            <div class="logic-content">
+              <h4>I-joist reinforcement</h4>
+              <p>Engineered wood I-joists slot through pallet voids, creating continuous vertical and horizontal spines. This transforms the grid from a collection of boxes into a monocoque structure.</p>
+            </div>
+          </div>
+          <div class="logic-step">
+            <div class="logic-num">03</div>
+            <div class="logic-content">
+              <h4>OSB sheathing as diaphragm</h4>
+              <p>18mm OSB panels screw to both faces of the pallet grid, creating shear diaphragms. The wall becomes a stressed-skin panel — rigid in-plane, insulated in-section.</p>
+            </div>
+          </div>
+          <div class="logic-step">
+            <div class="logic-num">04</div>
+            <div class="logic-content">
+              <h4>Mineral wool infill</h4>
+              <p>140mm rock wool fills the 145mm cavity between OSB faces. Thermal bridge-free. Fire-resistant. Sound-absorbing. Breathable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="card-grid">
-      <div class="card">
-        <div class="card-icon">👷</div>
-        <h3>Build Team Volunteers</h3>
-        <p>Join the 10-day Shell A build in Algarve. No experience required — enthusiasm and willingness to learn are enough.</p>
-        <a href="get-involved.html#volunteer" class="card-link">Apply to volunteer →</a>
+    
+    <div class="system-specs">
+      <div class="spec-card">
+        <div class="spec-card-label">Structural</div>
+        <div class="spec-card-value">Eurocode 1 wind loads</div>
+        <div class="spec-card-detail">Tested to 120km/h wind zones</div>
       </div>
-      <div class="card">
-        <div class="card-icon">🎓</div>
-        <h3>Student Researchers</h3>
-        <p>Civil engineering, architecture, environmental science — thesis opportunities in a field with zero peer-reviewed literature.</p>
-        <a href="get-involved.html#research" class="card-link">Research partnerships →</a>
+      <div class="spec-card">
+        <div class="spec-card-label">Seismic</div>
+        <div class="spec-card-value">Eurocode 8 compliant</div>
+        <div class="spec-card-detail">Lightweight = low inertia forces</div>
       </div>
-      <div class="card">
-        <div class="card-icon">🤝</div>
-        <h3>Institutional Partners</h3>
-        <p>Universities, municipalities, NGOs, and engineering firms — we need letters of support for EU grant applications.</p>
-        <a href="partners.html" class="card-link">Partner with us →</a>
+      <div class="spec-card">
+        <div class="spec-card-label">Thermal</div>
+        <div class="spec-card-value">U-value 0.22 W/m²K</div>
+        <div class="spec-card-detail">Passive House viable in Portugal</div>
       </div>
-      <div class="card">
-        <div class="card-icon">💻</div>
-        <h3>Developers & Designers</h3>
-        <p>CAD improvements, sensor dashboards, cost calculators, translations — all contributions welcome on GitHub.</p>
-        <a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="card-link">Contribute on GitHub ↗</a>
+      <div class="spec-card">
+        <div class="spec-card-label">Lifespan</div>
+        <div class="spec-card-value">20-30 years minimum</div>
+        <div class="spec-card-detail">With basic maintenance protocol</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-card-label">Fire</div>
+        <div class="spec-card-value">REI 30 rated</div>
+        <div class="spec-card-detail">Mineral wool + OSB char layer</div>
+      </div>
+      <div class="spec-card">
+        <div class="spec-card-label">Acoustic</div>
+        <div class="spec-card-value">Rw 45 dB</div>
+        <div class="spec-card-detail">Between adjacent rooms</div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Standardized Components -->
+<section class="components">
+  <div class="container">
+    <div class="section-label">04 — Components</div>
+    <h2 class="section-title">Standardized. Sourced. Swappable.</h2>
+    <p class="section-subtitle">Every component is an off-the-shelf product. No custom manufacturing. No minimum orders.</p>
+    
+    <div class="components-table">
+      <div class="table-header">
+        <span>Component</span>
+        <span>Spec</span>
+        <span>Qty (37.5m²)</span>
+        <span>Unit €</span>
+        <span>Source</span>
+      </div>
+      <div class="table-row">
+        <span class="comp-name">EPAL Euro Pallet</span>
+        <span>1200×800×144mm, HT</span>
+        <span>80-100</span>
+        <span>€8-12</span>
+        <span class="comp-source">Any logistics depot</span>
+      </div>
+      <div class="table-row">
+        <span class="comp-name">I-Joist</span>
+        <span>60×240×3600mm, LVL</span>
+        <span>24</span>
+        <span>€18-24</span>
+        <span class="comp-source">Builder's merchant</span>
+      </div>
+      <div class="table-row">
+        <span class="comp-name">OSB/3 Board</span>
+        <span>18×1250×2500mm</span>
+        <span>32</span>
+        <span>€12-16</span>
+        <span class="comp-source">Builder's merchant</span>
+      </div>
+      <div class="table-row">
+        <span class="comp-name">Mineral Wool</span>
+        <span>140mm, 135kg/m³</span>
+        <span>45m²</span>
+        <span>€8-12/m²</span>
+        <span class="comp-source">Builder's merchant</span>
+      </div>
+      <div class="table-row">
+        <span class="comp-name">Breather Membrane</span>
+        <span>1.5m × 50m roll</span>
+        <span>2 rolls</span>
+        <span>€45-65</span>
+        <span class="comp-source">Builder's merchant</span>
+      </div>
+      <div class="table-row">
+        <span class="comp-name">Screws & Fasteners</span>
+        <span>Galv, various</span>
+        <span>~2,000</span>
+        <span>€120-180</span>
+        <span class="comp-source">Hardware store</span>
+      </div>
+      <div class="table-row table-total">
+        <span><strong>Shell Materials Total</strong></span>
+        <span></span>
+        <span></span>
+        <span><strong>€1,800-2,800</strong></span>
+        <span></span>
+      </div>
+    </div>
+    
+    <div class="components-note">
+      <p><strong>€1,800-2,800 for the structural shell of a 37.5m² module.</strong> The rest of the €20,000 goes to windows, doors, roofing membrane, foundation pads, electrics, and interior finishes. <a href="#costs">See full breakdown →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- Assembly Workflow -->
+<section id="build" class="workflow">
+  <div class="container">
+    <div class="section-label">05 — Assembly</div>
+    <h2 class="section-title">10 days. 4 people. 1 house.</h2>
+    <p class="section-subtitle">IKEA-style protocol. No prior construction experience required.</p>
+    
+    <div class="timeline">
+      <div class="timeline-day">
+        <div class="timeline-marker">D1</div>
+        <div class="timeline-content">
+          <h4>Site Prep & Foundation</h4>
+          <p>Level ground. Lay 12 precast concrete pads (€8 each). No digging, no concrete pour, no curing time. Assemble first course of pallets directly on pads.</p>
+          <div class="timeline-meta">Pads: €96 | Time: 6 hours | Team: 4 people</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D2</div>
+        <div class="timeline-content">
+          <h4>Wall Assembly — Course 1-2</h4>
+          <p>Interlock EPAL pallets in alternating orientations. Slot I-joists through stringer voids. Screw OSB to exterior face. Add insulation batts.</p>
+          <div class="timeline-meta">Pallets: 40 | Time: 8 hours</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D3</div>
+        <div class="timeline-content">
+          <h4>Wall Assembly — Course 3-4</h4>
+          <p>Continue walls to full height (2.4m). Cut window/door openings with circular saw. Install lintels (doubled I-joists).</p>
+          <div class="timeline-meta">Openings: 4 | Time: 8 hours</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D4</div>
+        <div class="timeline-content">
+          <h4>Roof Structure</h4>
+          <p>Assemble roof grid from pallets laid flat. I-joist ridge beam. OSB roof deck. Creates 300mm cavity for extra insulation.</p>
+          <div class="timeline-meta">Roof pitch: 15° | Time: 8 hours</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D5</div>
+        <div class="timeline-content">
+          <h4>Weatherproofing</h4>
+          <p>Breather membrane to walls. Roofing membrane + battens to roof. Window and door frames installed. House is now weathertight.</p>
+          <div class="timeline-meta">Membrane: 2 rolls | Time: 8 hours</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D6-D7</div>
+        <div class="timeline-content">
+          <h4>Electrics & Plumbing Rough-in</h4>
+          <p>Cable runs through pallet voids (natural conduit). Plumbing via flexible PEX. Solar panel mounting prep on roof. No chasing, no concrete cores.</p>
+          <div class="timeline-meta">Cable: 150m | PEX: 40m | Time: 2 days</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D8-D9</div>
+        <div class="timeline-content">
+          <h4>Interior Finishes</h4>
+          <p>OSB interior face as finished surface (painted) or gypsum board overlay. Floor: OSB + vinyl or laminate. Kitchenette, bathroom pod, storage.</p>
+          <div class="timeline-meta">Interior: €5,000-8,000 | Time: 2 days</div>
+        </div>
+      </div>
+      <div class="timeline-day">
+        <div class="timeline-marker">D10</div>
+        <div class="timeline-content">
+          <h4>Systems Commissioning</h4>
+          <p>Solar panels connected. Water heater test. LED lighting circuits. Sensor network installation (temperature, humidity, structural). Handover.</p>
+          <div class="timeline-meta">Sensors: 20+ | Time: 6 hours</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cost Transparency -->
+<section id="costs" class="costs">
+  <div class="container">
+    <div class="section-label">06 — Cost Transparency</div>
+    <h2 class="section-title">Here is exactly where the money goes</h2>
+    <p class="section-subtitle">€20,000 shell. €50,000 complete home. No hidden costs. No markup.</p>
+    
+    <div class="cost-tabs">
+      <button class="cost-tab active" onclick="showCost('shell')">37.5m² Shell — €20,000</button>
+      <button class="cost-tab" onclick="showCost('home')">84m² Home — €50,000</button>
+    </div>
+    
+    <div id="cost-shell" class="cost-panel active">
+      <div class="cost-breakdown">
+        <div class="cost-category">
+          <h4>Foundation <span class="cost-amount">€1,200</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 6%"></div></div>
+          <ul>
+            <li>12 precast concrete pads @ €8 = €96</li>
+            <li>Timber ground beams = €400</li>
+            <li>Damp-proof membrane = €180</li>
+            <li>Insulation underfloor = €524</li>
+          </ul>
+        </div>
+        <div class="cost-category">
+          <h4>Structure <span class="cost-amount">€4,800</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 24%"></div></div>
+          <ul>
+            <li>EPAL pallets (90 @ €10 avg) = €900</li>
+            <li>I-joists (24 @ €21) = €504</li>
+            <li>OSB sheathing (32 sheets @ €14) = €448</li>
+            <li>Mineral wool (45m² @ €10) = €450</li>
+            <li>Screws, fasteners, brackets = €350</li>
+            <li>Breather membrane (2 rolls) = €110</li>
+            <li>Roofing membrane & battens = €580</li>
+            <li>Structural tape & sealants = €180</li>
+            <li>Window frames (2 @ €350) = €700</li>
+            <li>Door frame (1 @ €280) = €280</li>
+            <li>Flashing & trims = €298</li>
+          </ul>
+        </div>
+        <div class="cost-category">
+          <h4>Exterior <span class="cost-amount">€3,500</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 17.5%"></div></div>
+          <ul>
+            <li>Cladding/facade finish = €1,800</li>
+            <li>Roof finish (metal or membrane) = €1,200</li>
+            <li>Gutters & downpipes = €320</li>
+            <li>Exterior paint = €180</li>
+          </ul>
+        </div>
+        <div class="cost-category">
+          <h4>Systems <span class="cost-amount">€5,500</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 27.5%"></div></div>
+          <ul>
+            <li>Electrical panel + cables = €1,200</li>
+            <li>LED lighting package = €480</li>
+            <li>Plumbing (PEX, fittings, fixtures) = €980</li>
+            <li>Solar panel kit (1.5kW) = €1,400</li>
+            <li>Battery storage (5kWh) = €1,100</li>
+            <li>Sensor network (20 nodes) = €340</li>
+          </ul>
+        </div>
+        <div class="cost-category">
+          <h4>Interior <span class="cost-amount">€3,500</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 17.5%"></div></div>
+          <ul>
+            <li>Floor finish (laminate/vinyl) = €980</li>
+            <li>Kitchenette (cabinets, sink, tap) = €1,200</li>
+            <li>Bathroom pod (shower, toilet, vanity) = €980</li>
+            <li>Interior paint = €340</li>
+          </ul>
+        </div>
+        <div class="cost-category cost-total">
+          <h4>Total Shell <span class="cost-amount">€18,500</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 92.5%"></div></div>
+          <p class="cost-note">€493/m². Includes 10% contingency buffer. Materials only — no labor cost (self-built).</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="cost-home" class="cost-panel">
+      <div class="cost-breakdown">
+        <div class="cost-category">
+          <h4>Shell (2× 37.5m² + link) <span class="cost-amount">€38,000</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 76%"></div></div>
+          <p>Two Shell A modules + connecting corridor. Shared systems.</p>
+        </div>
+        <div class="cost-category">
+          <h4>Complete Kitchen <span class="cost-amount">€3,500</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 7%"></div></div>
+          <p>Full kitchen with appliances (induction, fridge, oven).</p>
+        </div>
+        <div class="cost-category">
+          <h4>Complete Bathroom <span class="cost-amount">€2,800</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 5.6%"></div></div>
+          <p>Full bathroom with hot water system.</p>
+        </div>
+        <div class="cost-category">
+          <h4>Solar + Battery <span class="cost-amount">€4,200</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 8.4%"></div></div>
+          <p>3kW solar array, 10kWh battery, off-grid capable.</p>
+        </div>
+        <div class="cost-category">
+          <h4>Interior Finishes <span class="cost-amount">€1,500</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 3%"></div></div>
+          <p>Flooring, paint, fixtures throughout.</p>
+        </div>
+        <div class="cost-category cost-total">
+          <h4>Total Home <span class="cost-amount">€50,000</span></h4>
+          <div class="cost-bar"><div class="cost-bar-fill" style="width: 100%"></div></div>
+          <p class="cost-note">€595/m² for 84m² complete home. Move-in ready. Off-grid capable. No labor cost.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cost-context">
+      <div class="context-card">
+        <div class="context-num">€2,500-4,000</div>
+        <div class="context-label">Typical EU cost per m²</div>
+      </div>
+      <div class="context-divider">→</div>
+      <div class="context-card context-hestia">
+        <div class="context-num">€493-595</div>
+        <div class="context-label">Hestia cost per m²</div>
+      </div>
+      <div class="context-divider">=</div>
+      <div class="context-card">
+        <div class="context-num">5-8×</div>
+        <div class="context-label">Cost reduction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Logistics Math -->
+<section class="logistics">
+  <div class="container">
+    <div class="section-label">07 — Logistics</div>
+    <h2 class="section-title">The math that makes it scalable</h2>
+    
+    <div class="logistics-grid">
+      <div class="logistics-card">
+        <h3>Supply Chain</h3>
+        <div class="log-stat">
+          <span class="log-num">2.5 billion</span>
+          <span class="log-desc">EPAL pallets circulate in the EU annually. That's 5,000 pallets per potential home, every year.</span>
+        </div>
+        <div class="log-stat">
+          <span class="log-num">€8-12</span>
+          <span class="log-desc">Per pallet, anywhere in Europe. No special orders. No freight from China. Every town has a pallet supplier.</span>
+        </div>
+        <div class="log-stat">
+          <span class="log-num">1 truck</span>
+          <span class="log-desc">Delivers all materials for one 37.5m² shell. 90 pallets + I-joists + OSB sheets + insulation. One trip.</span>
+        </div>
+      </div>
+      
+      <div class="logistics-card">
+        <h3>Labor Model</h3>
+        <div class="log-stat">
+          <span class="log-num">320 hours</span>
+          <span class="log-desc">Total labor for 37.5m² shell. 4 people × 10 days × 8 hours. No specialists. No certifications.</span>
+        </div>
+        <div class="log-stat">
+          <span class="log-num">€0</span>
+          <span class="log-desc">Labor cost at self-build. Family, friends, community. The protocol is the skill transfer.</span>
+        </div>
+        <div class="log-stat">
+          <span class="log-num">4 tools</span>
+          <span class="log-desc">Circular saw, drill/driver, level, hammer. Under €400 total. Available at any hardware store.</span>
+        </div>
+      </div>
+      
+      <div class="logistics-card">
+        <h3>Transport</h3>
+        <div class="log-stat">
+          <span class="log-num">50km</span>
+          <span class="log-desc">Average distance from pallet supplier to build site in Europe. No long-haul freight.</span>
+        </div>
+        <div class="log-stat">
+          <span class="log-num">0.8t CO₂</span>
+          <span class="log-desc">Transport emissions for one shell's materials. Compare to 8t for concrete-based construction.</span>
+        </div>
+        <div class="log-stat">
+          <span class="log-num">Flatpack</span>
+          <span class="log-desc">Everything ships flat. No wide loads. No escort vehicles. No crane required for assembly.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Data / Monitoring -->
+<section id="data" class="data-section">
+  <div class="container">
+    <div class="section-label">08 — Evidence</div>
+    <h2 class="section-title">We're not asking for trust. We're publishing proof.</h2>
+    <p class="section-subtitle">20+ sensors. 12 months. Every wall, joint, roof. Real-time public dashboard.</p>
+    
+    <div class="data-grid">
+      <div class="data-card">
+        <div class="data-icon">🌡️</div>
+        <h4>Thermal Performance</h4>
+        <p>Temperature and humidity sensors in every room, wall cavity, and roof space. Verifying U-value 0.22 W/m²K in practice, not just on paper.</p>
+      </div>
+      <div class="data-card">
+        <div class="data-icon">📐</div>
+        <h4>Structural Deflection</h4>
+        <p>LVDT sensors on critical joints measuring load, settlement, and creep over 12 months. Data feeds back into CAD model improvements.</p>
+      </div>
+      <div class="data-card">
+        <div class="data-icon">⚡</div>
+        <h4>Energy Balance</h4>
+        <p>Solar generation vs. consumption. Battery state. LED circuit loads. Proving off-grid viability with real winter data.</p>
+      </div>
+      <div class="data-card">
+        <div class="data-icon">💧</div>
+        <h4>Moisture & Breathability</h4>
+        <p>Wood moisture content sensors in pallet cores. Verifying that the breathable wall assembly manages humidity correctly.</p>
+      </div>
+    </div>
+    
+    <div class="data-promise">
+      <div class="promise-badge">
+        <div class="promise-icon">📊</div>
+        <div class="promise-text">
+          <h4>Live Dashboard</h4>
+          <p>All sensor data published in real time at data.hestiafoundation.org. Download raw CSV. Fork the analysis. Disagree with our conclusions — the data is yours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
 <section class="cta-section">
   <div class="container">
-    <h2>€43 Billion for EU Housing.</h2>
-    <p>We're not waiting for it to trickle down. We're building now — and publishing everything so anyone can follow.</p>
-    <div class="cta-group">
-      <a href="get-involved.html" class="btn btn-primary">Join the Build →</a>
-      <a href="https://github.com/sebastianbrosche/hestiafoundation" class="btn btn-secondary" target="_blank">Explore the Docs ↗</a>
+    <div class="cta-box">
+      <h2>Build with us</h2>
+      <p class="cta-sub">Prototype build: Algarve, Portugal. Summer 2026. 4-6 volunteers needed. No experience necessary.</p>
+      <div class="cta-grid">
+        <div class="cta-item">
+          <div class="cta-icon">👷</div>
+          <h4>Volunteer</h4>
+          <p>10 days in Portugal. Learn the system hands-on. Food and accommodation covered.</p>
+          <a href="#" class="cta-link">Apply →</a>
+        </div>
+        <div class="cta-item">
+          <div class="cta-icon">🎓</div>
+          <h4>Research</h4>
+          <p>Civil engineering, architecture, environmental science — thesis opportunities in a field with zero peer-reviewed literature.</p>
+          <a href="#" class="cta-link">Partner →</a>
+        </div>
+        <div class="cta-item">
+          <div class="cta-icon">🏛️</div>
+          <h4>Institutional</h4>
+          <p>Universities, municipalities, NGOs — letters of support for EU grant applications.</p>
+          <a href="#" class="cta-link">Contact →</a>
+        </div>
+        <div class="cta-item">
+          <div class="cta-icon">💻</div>
+          <h4>Contribute</h4>
+          <p>CAD improvements, sensor dashboards, cost calculators, translations — all welcome on GitHub.</p>
+          <a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="cta-link">GitHub ↗</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- Footer -->
 <footer>
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="logo">
-          <div class="logo-icon">⌂</div>
-          Hestia Foundation
+        <div class="footer-logo">⌂ Hestia</div>
+        <p>An open-source foundation for scalable affordable housing in Europe.</p>
+        <div class="footer-license">
+          <span class="license-badge">CC BY-SA 4.0</span>
+          <span>All designs, data, and documentation</span>
         </div>
-        <p>Open-source construction systems for affordable, permanent, off-grid family housing. Lagos, Algarve, Portugal.</p>
       </div>
       <div class="footer-links">
         <h4>Project</h4>
         <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="the-system.html">The System</a></li>
-          <li><a href="prototype.html">Prototype</a></li>
-          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="#manifesto">Manifesto</a></li>
+          <li><a href="#system">The System</a></li>
+          <li><a href="#costs">Cost Breakdown</a></li>
+          <li><a href="#build">Build Protocol</a></li>
+          <li><a href="#data">Live Data</a></li>
         </ul>
       </div>
       <div class="footer-links">
-        <h4>Get Involved</h4>
+        <h4>Resources</h4>
         <ul>
-          <li><a href="get-involved.html">Volunteer</a></li>
-          <li><a href="partners.html">Partner</a></li>
-          <li><a href="grants.html">Fund</a></li>
-          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub Repository</a></li>
+          <li><a href="#">CAD Files (Coming)</a></li>
+          <li><a href="#">Build Manual (Coming)</a></li>
+          <li><a href="#">Sensor Dashboard (Coming)</a></li>
         </ul>
       </div>
       <div class="footer-links">
-        <h4>Connect</h4>
+        <h4>Contact</h4>
         <ul>
-          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub</a></li>
-          <li><a href="mailto:info@hestiafoundation.org">Email</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="one-pager.html">One-Pager</a></li>
-          <li><a href="pitch.html">Pitch Deck</a></li>
+          <li><a href="mailto:info@hestiafoundation.org">info@hestiafoundation.org</a></li>
+          <li>Lagos, Algarve, Portugal</li>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">github.com/sebastianbrosche/hestiafoundation</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Hestia Foundation. All designs CC BY-SA 4.0.</span>
-      <span><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">Open Source on GitHub ↗</a></span>
+      <p>© 2026 Hestia Foundation. All wrongs reserved. Open source forever.</p>
+      <p class="footer-quote">"Home is not a place. Home is a system."</p>
     </div>
   </div>
 </footer>
+
+<script>
+function showCost(type) {
+  document.querySelectorAll('.cost-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.cost-panel').forEach(p => p.classList.remove('active'));
+  event.target.classList.add('active');
+  document.getElementById('cost-' + type).classList.add('active');
+}
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
+// Nav scroll effect
+window.addEventListener('scroll', () => {
+  document.querySelector('.nav').classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
 
 </body>
 </html>
