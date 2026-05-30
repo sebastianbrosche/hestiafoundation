@@ -113,6 +113,78 @@
     <div class="section-label">3.2 — Assembly Day</div>
     <h2>Under 48 hours: the complete sequence</h2>
 
+    <!-- ASSEMBLY SEQUENCE DIAGRAM -->
+    <div style="margin:48px 0; overflow-x:auto;">
+      <svg viewBox="0 0 1000 320" style="width:100%; max-width:1000px; height:auto; display:block; margin:0 auto;" xmlns="http://www.w3.org/2000/svg">
+        <rect width="1000" height="320" fill="#faf9f7"/>
+        
+        <!-- Step 1: Ground Screws -->
+        <rect x="20" y="40" width="220" height="240" fill="#fff" stroke="#ddd" stroke-width="1" rx="4"/>
+        <text x="130" y="65" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600" fill="#c4551a">STEP 1</text>
+        <text x="130" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#888">0-4 hours</text>
+        <!-- Screw drawing -->
+        <line x1="80" y1="220" x2="80" y2="180" stroke="#666" stroke-width="3"/>
+        <polygon points="80,180 75,170 85,170" fill="#666"/>
+        <line x1="130" y1="220" x2="130" y2="180" stroke="#666" stroke-width="3"/>
+        <polygon points="130,180 125,170 135,170" fill="#666"/>
+        <line x1="180" y1="220" x2="180" y2="180" stroke="#666" stroke-width="3"/>
+        <polygon points="180,180 175,170 185,170" fill="#666"/>
+        <line x1="60" y1="220" x2="200" y2="220" stroke="#8B7355" stroke-width="4"/>
+        <text x="130" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#4a4a4a">Ground screws</text>
+        <text x="130" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#888">+ sill beam</text>
+        
+        <!-- Arrow 1 -->
+        <text x="255" y="170" font-family="Inter, sans-serif" font-size="20" fill="#c4551a">→</text>
+        
+        <!-- Step 2: Wall Panels -->
+        <rect x="280" y="40" width="220" height="240" fill="#fff" stroke="#ddd" stroke-width="1" rx="4"/>
+        <text x="390" y="65" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600" fill="#c4551a">STEP 2</text>
+        <text x="390" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#888">4-12 hours</text>
+        <!-- Wall panels -->
+        <rect x="310" y="120" width="40" height="100" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <rect x="350" y="120" width="40" height="100" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <rect x="390" y="120" width="40" height="100" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <rect x="430" y="120" width="40" height="100" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <line x1="305" y1="110" x2="475" y2="110" stroke="#8B7355" stroke-width="3"/>
+        <text x="390" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#4a4a4a">Wall panels</text>
+        <text x="390" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#888">bolt to sill, to each other</text>
+        
+        <!-- Arrow 2 -->
+        <text x="515" y="170" font-family="Inter, sans-serif" font-size="20" fill="#c4551a">→</text>
+        
+        <!-- Step 3: Roof -->
+        <rect x="540" y="40" width="220" height="240" fill="#fff" stroke="#ddd" stroke-width="1" rx="4"/>
+        <text x="650" y="65" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600" fill="#c4551a">STEP 3</text>
+        <text x="650" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#888">12-20 hours</text>
+        <!-- Roof structure -->
+        <rect x="570" y="180" width="40" height="60" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <rect x="610" y="180" width="40" height="60" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <rect x="650" y="180" width="40" height="60" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <rect x="690" y="180" width="40" height="60" fill="#A0522D" stroke="#6b3a1f" stroke-width="1"/>
+        <line x1="565" y1="170" x2="735" y2="170" stroke="#8B7355" stroke-width="3"/>
+        <line x1="580" y1="130" x2="720" y2="130" stroke="#666" stroke-width="2"/>
+        <line x1="580" y1="130" x2="570" y2="170" stroke="#666" stroke-width="2"/>
+        <line x1="720" y1="130" x2="730" y2="170" stroke="#666" stroke-width="2"/>
+        <text x="650" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#4a4a4a">I-joists + roofing</text>
+        <text x="650" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#888">drop into hangers, seal</text>
+        
+        <!-- Arrow 3 -->
+        <text x="775" y="170" font-family="Inter, sans-serif" font-size="20" fill="#c4551a">→</text>
+        
+        <!-- Step 4: Weathertight -->
+        <rect x="800" y="40" width="180" height="240" fill="#fff" stroke="#c4551a" stroke-width="2" rx="4"/>
+        <text x="890" y="65" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600" fill="#c4551a">STEP 4</text>
+        <text x="890" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#888">20-48 hours</text>
+        <!-- House icon -->
+        <rect x="850" y="150" width="80" height="70" fill="none" stroke="#c4551a" stroke-width="2"/>
+        <polygon points="850,150 890,110 930,150" fill="none" stroke="#c4551a" stroke-width="2"/>
+        <rect x="875" y="175" width="20" height="30" fill="none" stroke="#c4551a" stroke-width="1"/>
+        <text x="890" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#4a4a4a">Weathertight</text>
+        <text x="890" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#888">windows, seal, inspect</text>
+      </svg>
+    </div>
+    <!-- END DIAGRAM -->
+
     <p>This is the critical path. Everything before this was preparation. Everything after this is finishing. The assembly itself is pure connection: panels bolted to the foundation, bolted to each other, roof dropped into place, sealed.</p>
 
     <div class="build-timeline">
