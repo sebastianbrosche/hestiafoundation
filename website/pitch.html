@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hestia Foundation — Pitch Deck</title>
+  <meta name="description" content="Hestia Foundation pitch deck: open-source construction systems for affordable, permanent, off-grid family housing.">
+  <meta property="og:title" content="Hestia Foundation — Pitch Deck">
+  <meta property="og:description" content="Open-source construction systems for affordable, permanent, off-grid family housing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hestiafoundation.org/pitch.html">
+  <meta property="og:site_name" content="Hestia Foundation">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#2d5016">
+  <link rel="canonical" href="https://hestiafoundation.org/pitch.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --primary: #1a5f3c;
+      --primary-light: #2d8a5a;
+      --primary-dark: #0d3d24;
+      --accent: #e8a33e;
+      --accent-light: #f0c070;
+      --text: #2c3e50;
+      --text-light: #5a6c7d;
+      --bg: #fafaf8;
+      --bg-alt: #f0ede8;
+      --bg-dark: #1e2a3a;
+      --white: #ffffff;
+    }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--bg-dark);
+      line-height: 1.6;
+    }
+    .slide {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 40px;
+      position: relative;
+    }
+    .slide-content {
+      max-width: 900px;
+      width: 100%;
+    }
+    .slide-number {
+      position: absolute;
+      bottom: 30px;
+      right: 40px;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.3);
+      font-weight: 600;
+    }
+    /* Slide 1: Title */
+    .slide-title {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+      color: var(--white);
+      text-align: center;
+    }
+    .slide-title .logo-icon {
+      font-size: 4rem;
+      margin-bottom: 24px;
+    }
+    .slide-title h1 {
+      font-size: 3.5rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    .slide-title .subtitle {
+      font-size: 1.4rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto 40px;
+    }
+    .slide-title .tagline {
+      font-size: 1.1rem;
+      opacity: 0.7;
+      font-style: italic;
+    }
+    /* Slide 2: Problem */
+    .slide-problem {
+      background: var(--bg);
+    }
+    .slide-problem h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: var(--text);
+    }
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .stat-box {
+      background: var(--white);
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .stat-box .number {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1;
+    }
+    .stat-box .label {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-top: 8px;
+    }
+    /* Slide 3: Solution */
+    .slide-solution {
+      background: var(--bg-alt);
+    }
+    .slide-solution h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: var(--text);
+    }
+    .solution-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .solution-item {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .solution-icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+    }
+    .solution-text h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .solution-text p {
+      font-size: 0.95rem;
+      color: var(--text-light);
+    }
+    /* Slide 4: How It Works */
+    .slide-how {
+      background: var(--white);
+    }
+    .slide-how h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      color: var(--text);
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 24px;
+    }
+    .step {
+      padding: 24px;
+      border-left: 4px solid var(--primary);
+      background: var(--bg);
+      border-radius: 0 12px 12px 0;
+    }
+    .step-num {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .step h4 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .step p {
+      font-size: 0.9rem;
+      color: var(--text-light);
+    }
+    /* Slide 5: Numbers */
+    .slide-numbers {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+      color: var(--white);
+    }
+    .slide-numbers h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    .big-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 32px;
+      text-align: center;
+    }
+    .big-stat .num {
+      font-size: 3.5rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .big-stat .lbl {
+      font-size: 1rem;
+      opacity: 0.8;
+      margin-top: 8px;
+    }
+    /* Slide 6: Team & Ask */
+    .slide-ask {
+      background: var(--bg-dark);
+      color: var(--white);
+    }
+    .slide-ask h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    .ask-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    .ask-box {
+      background: rgba(255,255,255,0.05);
+      padding: 32px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .ask-box h4 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: var(--accent);
+    }
+    .ask-box ul {
+      list-style: none;
+    }
+    .ask-box ul li {
+      padding: 8px 0;
+      padding-left: 24px;
+      position: relative;
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    .ask-box ul li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+    .contact-info {
+      margin-top: 40px;
+      text-align: center;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+    .contact-info a {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .contact-info p {
+      opacity: 0.7;
+      margin-top: 8px;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      .slide { padding: 40px 20px; }
+      .slide-title h1 { font-size: 2.2rem; }
+      .solution-grid, .ask-grid { grid-template-columns: 1fr; }
+      .big-stats { grid-template-columns: 1fr 1fr; }
+    }
+    @media print {
+      .slide { min-height: auto; page-break-after: always; }
+      .slide-number { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<section class="slide slide-title">
+  <div class="slide-content">
+    <div class="logo-icon">⌂</div>
+    <h1>Hestia Foundation</h1>
+    <p class="subtitle">Open-source construction systems for affordable, permanent, off-grid family housing</p>
+    <p class="tagline">"Day one. Begin recording everything about this one."</p>
+  </div>
+  <div class="slide-number">01</div>
+</section>
+
+<!-- Slide 2: Problem -->
+<section class="slide slide-problem">
+  <div class="slide-content">
+    <h2>The Housing Crisis Is Real</h2>
+    <p style="font-size: 1.15rem; color: var(--text-light); max-width: 600px;">EU house prices have risen 60% since 2013. Portugal's have risen 94% — the 4th highest in Europe. Meanwhile, 20% of homes sit unoccupied and social housing covers only 6–7% of the population.</p>
+    <div class="stat-grid">
+      <div class="stat-box">
+        <div class="number">€43B</div>
+        <div class="label">EU housing funding mobilised</div>
+      </div>
+      <div class="stat-box">
+        <div class="number">60%</div>
+        <div class="label">EU house price increase since 2013</div>
+      </div>
+      <div class="stat-box">
+        <div class="number">94%</div>
+        <div class="label">Portugal house price increase</div>
+      </div>
+      <div class="stat-box">
+        <div class="number">6–7%</div>
+        <div class="label">Social housing coverage in EU</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">02</div>
+</section>
+
+<!-- Slide 3: Solution -->
+<section class="slide slide-solution">
+  <div class="slide-content">
+    <h2>Our Solution: The RCP System</h2>
+    <div class="solution-grid">
+      <div>
+        <div class="solution-item">
+          <div class="solution-icon">🏠</div>
+          <div class="solution-text">
+            <h4>Affordable by Design</h4>
+            <p>€25,000 for a complete 37.5 m² home — not €150,000+</p>
+          </div>
+        </div>
+        <div class="solution-item">
+          <div class="solution-icon">⚡</div>
+          <div class="solution-text">
+            <h4>Fast & Simple</h4>
+            <p>4–6 people, basic tools, 10 active days. No specialists.</p>
+          </div>
+        </div>
+        <div class="solution-item">
+          <div class="solution-icon">🔓</div>
+          <div class="solution-text">
+            <h4>Open Source Forever</h4>
+            <p>Every plan, calculation, and cost breakdown under CC BY-SA 4.0</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="solution-item">
+          <div class="solution-icon">♻️</div>
+          <div class="solution-text">
+            <h4>Circular & Low-Carbon</h4>
+            <p>Turning the EU's 2.5 billion annual pallet waste stream into homes</p>
+          </div>
+        </div>
+        <div class="solution-item">
+          <div class="solution-icon">📊</div>
+          <div class="solution-text">
+            <h4>Data-Driven</h4>
+            <p>20+ sensors monitoring every wall, roof, and joint for 12 months</p>
+          </div>
+        </div>
+        <div class="solution-item">
+          <div class="solution-icon">🇪🇺</div>
+          <div class="solution-text">
+            <h4>EU-Aligned</h4>
+            <p>New European Bauhaus, Horizon Europe, European Green Deal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">03</div>
+</section>
+
+<!-- Slide 4: How It Works -->
+<section class="slide slide-how">
+  <div class="slide-content">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h4>Interlocking Pallet Grid</h4>
+        <p>Standard 1200×800 mm EPAL pallets arranged in structural grids</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h4>I-Joist Reinforcement</h4>
+        <p>Engineered timber I-joists provide structural rigidity per Eurocode</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h4>OSB Sheathing</h4>
+        <p>Structural-grade OSB creates a weathertight envelope</p>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <h4>Mineral Wool Insulation</h4>
+        <p>Thermal comfort of 18–24°C without heating or cooling</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">04</div>
+</section>
+
+<!-- Slide 5: Numbers -->
+<section class="slide slide-numbers">
+  <div class="slide-content">
+    <h2>The Numbers</h2>
+    <div class="big-stats">
+      <div class="big-stat">
+        <div class="num">€25K</div>
+        <div class="lbl">Cost per home</div>
+      </div>
+      <div class="big-stat">
+        <div class="num">10</div>
+        <div class="lbl">Days to build</div>
+      </div>
+      <div class="big-stat">
+        <div class="num">37.5m²</div>
+        <div class="lbl">Shell A size</div>
+      </div>
+      <div class="big-stat">
+        <div class="num">0</div>
+        <div class="lbl">Patents. All open.</div>
+      </div>
+    </div>
+    <p style="text-align: center; margin-top: 40px; opacity: 0.8; font-size: 1.1rem;">Target: €4M Horizon Europe grant | NEB Boost: €30K | Prototype: Q3 2026</p>
+  </div>
+  <div class="slide-number">05</div>
+</section>
+
+<!-- Slide 6: Ask -->
+<section class="slide slide-ask">
+  <div class="slide-content">
+    <h2>What We Need</h2>
+    <div class="ask-grid">
+      <div class="ask-box">
+        <h4>Partners</h4>
+        <ul>
+          <li>University of Algarve — civil engineering research</li>
+          <li>LNEC — independent structural testing</li>
+          <li>Lagos Municipality — site and permits</li>
+          <li>Engineering firms — certification pathway</li>
+        </ul>
+      </div>
+      <div class="ask-box">
+        <h4>Funding</h4>
+        <ul>
+          <li>Horizon Europe: €4M (R&D + 10-house pilot)</li>
+          <li>NEB Boost: €30K (prototype build)</li>
+          <li>Private foundations: €50K–200K</li>
+          <li>Crowdfunding: €25K (community build)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="contact-info">
+      <a href="mailto:info@hestiafoundation.org">info@hestiafoundation.org</a>
+      <p>hestiafoundation.org &nbsp;|&nbsp; github.com/sebastianbrosche/hestiafoundation</p>
+      <p style="margin-top: 16px; font-size: 0.9rem; opacity: 0.5;">Lagos, Algarve, Portugal</p>
+    </div>
+  </div>
+  <div class="slide-number">06</div>
+</section>
+
+</body>
+</html>
