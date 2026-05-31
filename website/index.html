@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hestia — A Beautiful Family Home a Single Parent Can Afford. And Build.</title>
-  <meta name="description" content="Hestia is an open-source home-building platform. Affordable, reversible, beautiful, grid-independent houses using off-the-shelf materials and hand tools. Under €50,000. Assembled in under two weeks. Owned outright from day one.">
+  <title>Hestia - A Beautiful Family Home a Single Parent Can Afford. And Build.</title>
+  <meta name="description" content="Hestia is an open-source home-building platform. Affordable, beautiful, reversible, and off-grid, assembled from off-the-shelf parts with hand tools, in under two weeks, for under 50,000 euros in materials.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -24,6 +24,7 @@
       <li><a href="build.html">Build</a></li>
       <li><a href="costs.html">Costs</a></li>
       <li><a href="research.html">Research</a></li>
+      <li><a href="lineage.html">Lineage</a></li>
       <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="nav-cta">GitHub ↗</a></li>
     </ul>
     <button class="nav-mobile" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
@@ -36,10 +37,10 @@
     <div class="hero-kicker">An open-source home-building platform</div>
     <h1 class="hero-title">A beautiful family home<br>a single parent can afford.<br>And build.</h1>
     <p class="hero-sub">
-      Hestia designs houses that are affordable, reversible, beautiful, and grid-independent, using off-the-shelf materials and hand tools.
+      Affordable, beautiful, reversible, and off-grid, assembled from off-the-shelf parts with hand tools, in under two weeks, for under 50,000 euros in materials.
     </p>
     <p class="hero-detail">
-      The Hestia system uses the geometry of the EPAL Euro pallet — the most standardised structural object in European logistics — as the core of a composite wall panel. No material novelty. No factory. No patent. Five certified off-the-shelf components, assembled in a defined sequence by almost anyone, producing a permanent insulated family home at roughly one-tenth of the European market price.
+      We did not invent anything. We noticed that Europe already produces around 500 million standardised timber pallets a year, that any builders merchant stocks the other few components, and that nobody had written down how to put them together into a home. So we wrote it down. And published it for free.
     </p>
     <div class="hero-cta">
       <a href="#manifesto" class="btn btn-primary">Read the manifesto →</a>
@@ -63,16 +64,19 @@
         <div class="spec-label">CC BY-SA 4.0</div>
       </div>
     </div>
+    <div style="margin-top:48px; font-size:1.05rem; color:var(--color-text-secondary); font-style:italic;">
+      IKEA, applied to housing. A defined set of standard parts. A clear assembly sequence. A result that looks nothing like the components it came from.
+    </div>
   </div>
 </section>
 
 <section id="manifesto" class="manifesto">
   <div class="container">
-    <div class="section-label">01 — The Manifesto</div>
+    <div class="section-label">01 - The Manifesto</div>
     <h2 class="section-title-manifesto">Housing stopped being about homes.</h2>
 
     <div class="affordability-crisis">
-      <p class="crisis-lead">In the 1970s, two years of average salary bought a home in Sweden. Today it takes eight. In Portugal — where we are building — it takes <strong>nineteen years</strong> of gross income to pay for an average property on an average salary. The house has not changed. The system has.</p>
+      <p class="crisis-lead">In the 1970s, two years of average salary bought a home in Sweden. Today it takes eight. In Portugal, where we are building, it takes <strong>nineteen years</strong> of gross income to pay for an average property on an average salary. The house has not changed. The system has.</p>
 
       <div class="salary-comparison">
         <div class="salary-era">
@@ -99,7 +103,7 @@
       <div class="financialization">
         <h3>The financialization of shelter</h3>
         <p>Housing prices have detached from wages and attached to investment returns. Private equity funds, pension funds, and real estate investment trusts do not buy homes to live in. They buy them as yield-producing assets. A family wants a place to raise children. A fund wants 7% annual return. These are incompatible goals, and the fund has more capital.</p>
-        <p>When a house becomes an asset class, every efficiency in construction gets captured as margin, not passed on as affordability. Every innovation becomes intellectual property, not public good. The result: prices rise, quality stagnates, and the people who actually need shelter are priced out of the market they were supposed to serve.</p>
+        <p>When a house becomes an asset class, every efficiency in construction gets captured as margin, not passed on as affordability. Every innovation becomes intellectual property, not public good. The result is prices rise, quality stagnates, and the people who actually need shelter are priced out of the market they were supposed to serve.</p>
         <p>Today a family in Portugal pays roughly €700 per month for thirty years to own a home. That is the equivalent of seventeen years of their entire income, handed to a bank, for the right to live under a roof. Across Europe, house prices have risen more than 60% since 2013. Europe needs to build more than two million homes per year and is failing.</p>
         <p>This is not a shortage of materials. There is no shortage of wood, or land, or labour. It is a shortage of access. The home became a financial product. The family became the customer. And the knowledge of how to build, once common, became the property of an industry.</p>
       </div>
@@ -140,26 +144,27 @@
         <p>Bricks are open source. Nobody owns the brick. That is precisely why the brick is everywhere, why it has been improved for thousands of years, and why no single company can hold the world's builders hostage to its price.</p>
         <p>Hestia is open source, like bricks.</p>
         <p>Every drawing, every specification, every step of the protocol, every lesson learned, is published freely under a Creative Commons licence. Anyone can use it, adapt it, improve it, and build on it, for any purpose, including commercial, as long as they credit the source and keep it open.</p>
-        <p>We take our inspiration from three places. From <a href="https://www.wikihouse.cc/" target="_blank">WikiHouse</a>, who proved that digitally fabricated, open-source building systems can generate real community momentum through technical transparency. From Buckminster Fuller, who believed that design science could solve human problems by doing more with less, and that shelter should be approached as an engineering problem in service of humanity rather than a luxury good. And from Linux, the operating system that runs most of the world, built by a distributed community giving their work away, which outcompeted every proprietary alternative precisely because it was open.</p>
+        <p>We take our inspiration from <a href="https://www.wikihouse.cc/" target="_blank">WikiHouse</a>, who proved that open-source building systems can generate real community momentum. From <a href="https://www.opensourceecology.org/gvcs/" target="_blank">Open Source Ecology</a>, who published fifty industrial machines openly and watched people build them everywhere. And from Linux, the operating system that runs most of the world, built by a distributed community giving their work away, which outcompeted every proprietary alternative precisely because it was open.</p>
         <p>A proprietary housing system can be bought, enclosed, and shut down. An open one cannot. Once the knowledge is published and held by a community, it is permanent. It belongs to everyone. That is the only foundation on which affordable housing can actually be built at scale.</p>
+        <p>A proprietary system has a customer. An open system has a community.</p>
       </div>
 
       <div class="principle-block">
         <div class="principle-num">V</div>
         <h3>A home should not require a debt sentence.</h3>
-        <p>The Hestia system is designed so that a family can save, build, and own — without a mortgage, without a thirty-year commitment, without handing the majority of their working life to a lender for the right to live under a roof they built themselves.</p>
+        <p>The Hestia system is designed so that a family can save, build, and own, without a mortgage, without a thirty-year commitment, without handing the majority of their working life to a lender for the right to live under a roof they built themselves.</p>
         <p>A bank does not build a house. A family does. Yet the bank receives more years of a family's labour than the family receives years in their home. The system has inverted the relationship between builder and beneficiary. Hestia inverts it back.</p>
         <p>A single parent on a median salary, with €15,000 saved and a €30,000 loan, can afford a three-bedroom home. The total materials cost for a complete 84 square metre family home stays under €50,000. It is our job to make that enough. It is our job to make the numbers work.</p>
-        <p>This is not charity. This is not subsidy. This is structural affordability — achieved by removing the intermediation that inflates cost, and by publishing the knowledge that enclosure has kept expensive.</p>
+        <p>This is not charity. This is not subsidy. This is structural affordability, achieved by removing the intermediation that inflates cost, and by publishing the knowledge that enclosure has kept expensive.</p>
       </div>
 
       <div class="principle-block">
         <div class="principle-num">VI</div>
-        <h3>We are engineering a repeatable building system.</h3>
-        <p>This is not an alternative housing idea. This is not a design concept. This is an engineering project, approached with the same discipline as aerospace, automotive platforms, or industrial design.</p>
-        <p>We document constraints openly. We publish failed iterations. We test every assumption. We measure thermal performance, structural deflection, moisture content, and energy balance — and we publish the data. The system improves in public, the way Linux improved in public, because scrutiny makes things better.</p>
+        <h3>We publish what works, and what does not.</h3>
+        <p>This is not an alternative housing idea. This is not a design concept. This is an engineering project, approached with the same discipline as any other system that people will live inside.</p>
+        <p>We document constraints openly. We publish failed iterations. We test every assumption. We measure thermal performance, structural deflection, moisture content, and energy balance, and we publish the data. The system improves in public, the way Linux improved in public, because scrutiny makes things better.</p>
+        <p>We have not built the prototype yet. Here is exactly what we will test, and the protocol we will follow. When it is built, every claim on this site will be backed by data and a receipt. We would rather show you precisely where every euro goes and let you check our arithmetic than ask you to believe a slogan.</p>
         <p>The home is the oldest human institution. Hestia was the goddess of the hearth, the fire at the centre of the house around which the family gathered. A home is not a financial product. It is the place where a life is lived. We intend to make that place accessible again.</p>
-        <p>This is the future of construction. By everyone, for everyone.</p>
       </div>
     </div>
   </div>
@@ -238,7 +243,7 @@
 
 <section class="systems-preview">
   <div class="container">
-    <div class="section-label">02 — The System</div>
+    <div class="section-label">02 - The System</div>
     <h2 class="section-title">Five certified components. One complete home.</h2>
     <p class="section-subtitle">Every part is off-the-shelf. Nothing is custom. Nothing is scarce.</p>
 
@@ -271,7 +276,7 @@
         <div class="showcase-num">05</div>
         <h4>Structural PU Adhesive + Ring Shank Nails</h4>
         <p class="showcase-spec">EN 204 D4 class PU, 3.1 × 90mm nails</p>
-        <p class="showcase-desc">The bond that makes it composite. Continuous adhesive plus mechanical fastening creates true composite action — the OSB skins and timber core acting as one structural unit. Any builders merchant.</p>
+        <p class="showcase-desc">The bond that makes it composite. Continuous adhesive plus mechanical fastening creates true composite action. The OSB skins and timber core acting as one structural unit. Any builders merchant.</p>
       </div>
     </div>
 
@@ -283,7 +288,7 @@
 
 <section class="build-preview">
   <div class="container">
-    <div class="section-label">03 — Assembly</div>
+    <div class="section-label">03 - Assembly</div>
     <h2 class="section-title">Under two weeks to weathertight.</h2>
     <p class="section-subtitle">Everything slow happens before assembly day. Assembly day is pure connection.</p>
 
@@ -299,26 +304,33 @@
       <div class="phase-arrow">→</div>
       <div class="phase highlight">
         <div class="phase-header">
-          <span class="phase-tag">WEEK 1-2</span>
-          <h4>Assembly</h4>
-          <span class="phase-time">Under two weeks</span>
+          <span class="phase-tag">DAY 0-1</span>
+          <h4>Foundation + First Lift</h4>
+          <span class="phase-time">3-4 hours</span>
         </div>
-        <p><strong>Day 1:</strong> Sill beam fixed to screws. Wall panels raised with a wall jack, one person per panel. Bolted together. Squareness checked with a plumb laser.</p>
-        <p><strong>Day 2-3:</strong> Double top plate. I-joists dropped into hangers. Ceiling pallets.</p>
-        <p><strong>Day 4-10:</strong> Purlins. Steel roof, sealed at every screw. Windows fitted. The shell is weathertight.</p>
+        <p>Sill beams on ground screws. Corner panels lifted and bolted. The shape of the house appears in an afternoon. No concrete. No curing. No weather delays.</p>
       </div>
       <div class="phase-arrow">→</div>
-      <div class="phase">
+      <div class="phase highlight">
         <div class="phase-header">
-          <span class="phase-tag">AFTER</span>
-          <h4>Finishing</h4>
-          <span class="phase-time">Flexible, over weeks</span>
+          <span class="phase-tag">DAY 1-2</span>
+          <h4>Walls Complete</h4>
+          <span class="phase-time">4-6 hours</span>
         </div>
-        <p>Blown rockwool by contractor. Electrical and plumbing by licensed professionals on short engagements. Gypsum. Limewash. Off-grid package. Interior.</p>
+        <p>Wall panels connected with M12 bolts at 400mm centres. Door and window openings framed. Shear diaphragm complete. The structure is rigid.</p>
+      </div>
+      <div class="phase-arrow">→</div>
+      <div class="phase highlight">
+        <div class="phase-header">
+          <span class="phase-tag">DAY 2-4</span>
+          <h4>Roof + Weathertight</h4>
+          <span class="phase-time">8-12 hours</span>
+        </div>
+        <p>I-joists drop into hangers. Steel roofing fixed. Guttering complete. The house is dry. Ready for insulation, electrics, and interior fit-out.</p>
       </div>
     </div>
 
-    <div class="build-link">
+    <div class="system-link">
       <a href="build.html" class="btn btn-primary">Full build protocol →</a>
     </div>
   </div>
@@ -326,68 +338,39 @@
 
 <section class="costs-preview">
   <div class="container">
-    <div class="section-label">04 — Cost Transparency</div>
+    <div class="section-label">04 - Cost Transparency</div>
     <h2 class="section-title">Here is exactly where the money goes.</h2>
-    <p class="section-subtitle">Hard rules. No hidden costs. No markup.</p>
+    <p class="section-subtitle">Hard rules. No hidden costs. No markup. Every line item published openly.</p>
 
-    <div class="hard-rules">
-      <div class="rule">
-        <span class="rule-num">1</span>
-        <span class="rule-text">The structural shell never costs more than €20,000 in materials for a 70-84m² home.</span>
+    <div class="cost-breakdown">
+      <div class="cost-card">
+        <div class="cost-title">Structural Shell</div>
+        <div class="cost-range">€18,100 - €25,400</div>
+        <p class="cost-desc">Pallets, OSB, I-joists, screws, windows, cladding, roofing. Everything that keeps wind and rain out.</p>
       </div>
-      <div class="rule">
-        <span class="rule-num">2</span>
-        <span class="rule-text">The complete materials cost never exceeds €50,000.</span>
+      <div class="cost-card">
+        <div class="cost-title">Off-Grid Systems</div>
+        <div class="cost-range">€9,100 - €13,300</div>
+        <p class="cost-desc">Solar PV, battery, hot water, composting toilets, water system, smart sensors. Optional for grid-connected builds.</p>
       </div>
-      <div class="rule">
-        <span class="rule-num">3</span>
-        <span class="rule-text">If labour is hired, it never exceeds €25,000. In a self-build, labour is free.</span>
+      <div class="cost-card">
+        <div class="cost-title">Professional Services</div>
+        <div class="cost-range">€1,300 - €3,950</div>
+        <p class="cost-desc">Structural engineer, electrician, plumber, insulation contractor. Short engagements, not long contracts.</p>
       </div>
-    </div>
-
-    <div class="cost-summary">
-      <div class="cost-block">
-        <h4>Structural Shell</h4>
-        <div class="cost-range">€18,100 – €25,400</div>
-        <ul>
-          <li>Wall panels (44 panels)</li>
-          <li>Roof system (I-joists, steel, battens)</li>
-          <li>Floor system (joists, deck)</li>
-          <li>Foundation (earth screws, installed)</li>
-          <li>Windows and doors</li>
-          <li>Fixings and connectors</li>
-        </ul>
+      <div class="cost-card">
+        <div class="cost-title">One-Off Costs</div>
+        <div class="cost-range">€600 - €3,800</div>
+        <p class="cost-desc">Permits, tools, transport. Can be rented for ~€50 instead of purchased.</p>
       </div>
-      <div class="cost-block">
-        <h4>Off-Grid Package</h4>
-        <div class="cost-range">€9,100 – €13,300</div>
-        <ul>
-          <li>Solar PV with battery</li>
-          <li>Solar hot water</li>
-          <li>Composting toilets</li>
-          <li>Water (rain or connection)</li>
-          <li>Smart home + sensors</li>
-        </ul>
-      </div>
-      <div class="cost-block">
-        <h4>Professional + One-Off</h4>
-        <div class="cost-range">€1,900 – €7,750</div>
-        <ul>
-          <li>Structural engineer stamp</li>
-          <li>Blown rockwool contractor</li>
-          <li>Electrician + plumber</li>
-          <li>Permits and legal</li>
-          <li>Tools and transport</li>
-        </ul>
-      </div>
-      <div class="cost-block total">
-        <h4>Complete Home</h4>
+      <div class="cost-card total">
+        <div class="cost-title">Total Complete Home</div>
         <div class="cost-range">~€50,000</div>
-        <p class="cost-note">Materials only. Self-build labour: €0. At €595/m² for 84m², this is roughly one-tenth of the typical EU construction cost per m².</p>
+        <p class="cost-desc">84m². Off-grid. Weathertight. Owned outright. Materials only. No paid labour required.</p>
       </div>
     </div>
 
-    <div class="cost-link">
+    <div class="system-link">
       <a href="costs.html" class="btn btn-primary">Full cost breakdown →</a>
     </div>
   </div>
@@ -395,74 +378,57 @@
 
 <section class="research-preview">
   <div class="container">
-    <div class="section-label">05 — Research & Constraints</div>
+    <div class="section-label">05 - Research & Data</div>
     <h2 class="section-title">We publish what works. And what does not.</h2>
     <p class="section-subtitle">Serious builders talk about constraints. Scammy projects talk only about vision.</p>
 
-    <div class="constraints-grid">
-      <div class="constraint-card solved">
-        <div class="constraint-status">✓ Resolved</div>
-        <h4>Thermal performance</h4>
-        <p>U-value target: 0.40 W/m²K. Achieved through 145mm cavity + blown rockwool. Prototype testing confirms.</p>
+    <div class="constraint-grid">
+      <div class="constraint-item">
+        <div class="constraint-name">Lateral bracing</div>
+        <div class="constraint-status active">→ Active</div>
+        <p>Corner panels and shear walls provide bracing under our assumptions. The OSB-faced panels create shear diaphragms. Full diaphragm capacity will be verified with racking tests at LNEC.</p>
       </div>
-      <div class="constraint-card active">
-        <div class="constraint-status">→ Active</div>
-        <h4>Lateral bracing</h4>
-        <p>Corner panels and shear walls provide bracing. Full diaphragm action of OSB skins assumed. Testing scheduled Q3 2026.</p>
+      <div class="constraint-item">
+        <div class="constraint-name">Condensation risk</div>
+        <div class="constraint-status active">→ Active</div>
+        <p>The assembly is vapour-open. OSB is vapour-permeable. Rock wool is vapour-permeable. Interstitial condensation risk will be quantified with 12-month monitoring and WUFI modelling.</p>
       </div>
-      <div class="constraint-card active">
-        <div class="constraint-status">→ Active</div>
-        <h4>Condensation risk</h4>
-        <p>Vapour-open assembly (OSB + rockwool + limewash) allows diffusion. Breather membrane on exterior. Monitoring begins with prototype.</p>
+      <div class="constraint-item">
+        <div class="constraint-name">Code approval</div>
+        <div class="constraint-status active">→ Active</div>
+        <p>Portuguese building code allows engineered timber systems with stamped calculations. An RCP panel is not a standard product with an ETA. We need project-specific calculations and test evidence.</p>
       </div>
-      <div class="constraint-card active">
-        <div class="constraint-status">→ Active</div>
-        <h4>Code approval pathway</h4>
-        <p>Portuguese building code allows engineered timber systems with stamped structural calculations. LNEC testing will provide the evidence base.</p>
+      <div class="constraint-item">
+        <div class="constraint-name">Ground screw capacity</div>
+        <div class="constraint-status active">→ Active</div>
+        <p>Helical ground screws are proven in Northern European soils. Algarve soils are variable: sandy near coast, rocky inland, clay in valleys. On-site pull-out tests before installation.</p>
       </div>
-      <div class="constraint-card active">
-        <div class="constraint-status">→ Active</div>
-        <h4>Transport optimisation</h4>
-        <p>One truck delivers all materials for one 37.5m² module. 90 pallets + I-joists + OSB + insulation. Flatpack. No crane.</p>
+      <div class="constraint-item">
+        <div class="constraint-name">Fire rating</div>
+        <div class="constraint-status active">→ Active</div>
+        <p>Target: REI 30. Raw timber plus OSB plus rock wool provides natural fire protection through char layer formation. Full-scale panel burn test scheduled for Q3 2026.</p>
       </div>
-      <div class="constraint-card open">
-        <div class="constraint-status">? Open</div>
-        <h4>Fire rating</h4>
-        <p>Target REI 30. Rockwool + gypsum lining. Untested. Will be verified with full-scale panel burn test.</p>
+      <div class="constraint-item">
+        <div class="constraint-name">Long-term creep</div>
+        <div class="constraint-status open">? Open</div>
+        <p>Wood creeps under sustained load. The magnitude of long-term deformation in an RCP panel is unknown. 12-month monitoring includes LVDT deflection sensors on critical joints.</p>
       </div>
     </div>
 
-    <div class="research-link">
-      <a href="research.html" class="btn btn-primary">View all research & data →</a>
+    <div class="system-link">
+      <a href="research.html" class="btn btn-primary">Full research programme →</a>
     </div>
   </div>
 </section>
 
-<section class="get-involved">
+<section class="cta-hero" style="padding:120px 0;">
   <div class="container">
-    <div class="section-label">06 — Build With Us</div>
-    <h2 class="section-title">Prototype build: Algarve, Portugal. Summer 2026.</h2>
-
-    <div class="involve-grid">
-      <div class="involve-card">
-        <div class="involve-icon">👷</div>
-        <h4>Volunteer</h4>
-        <p>10 days in Portugal. Learn the system hands-on. Food and accommodation covered. No experience necessary — attention and willingness are enough.</p>
-      </div>
-      <div class="involve-card">
-        <div class="involve-icon">🎓</div>
-        <h4>Research</h4>
-        <p>Civil engineering, architecture, environmental science — thesis opportunities in a field with zero peer-reviewed literature. Partner with University of Algarve.</p>
-      </div>
-      <div class="involve-card">
-        <div class="involve-icon">🏛️</div>
-        <h4>Institutional</h4>
-        <p>Universities, municipalities, NGOs — letters of support for EU grant applications. Horizon Europe. NEB Boost. Portugal 2030.</p>
-      </div>
-      <div class="involve-card">
-        <div class="involve-icon">💻</div>
-        <h4>Contribute</h4>
-        <p>CAD improvements, sensor dashboards, cost calculators, translations — all welcome on GitHub. CC BY-SA 4.0. Fork and improve.</p>
+    <div class="cta-hero-box">
+      <h2>Build with us.</h2>
+      <p class="cta-hero-sub">The prototype build happens in Algarve, Portugal, Q3 2026. We are looking for build team members, research partners, universities, municipalities, and anyone who believes housing should be a right, not a financial product.</p>
+      <div class="cta-hero-actions">
+        <a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="btn btn-primary">GitHub →</a>
+        <a href="mailto:info@hestiafoundation.org" class="btn btn-secondary">Get in touch ↓</a>
       </div>
     </div>
   </div>
@@ -487,13 +453,15 @@
           <li><a href="build.html">Build Protocol</a></li>
           <li><a href="costs.html">Cost Breakdown</a></li>
           <li><a href="research.html">Research & Data</a></li>
+          <li><a href="lineage.html">Lineage</a></li>
         </ul>
       </div>
       <div class="footer-links">
         <h4>Resources</h4>
         <ul>
           <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub Repository</a></li>
-          <li><a href="https://www.wikihouse.cc/" target="_blank">WikiHouse (Inspiration)</a></li>
+          <li><a href="https://www.wikihouse.cc/" target="_blank">WikiHouse</a></li>
+          <li><a href="https://www.opensourceecology.org/gvcs/" target="_blank">Global Village Construction Set</a></li>
           <li><a href="#">CAD Files (Coming)</a></li>
           <li><a href="#">Build Manual (Coming)</a></li>
         </ul>
@@ -518,12 +486,9 @@
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
   });
-});
-
-window.addEventListener('scroll', () => {
-  document.querySelector('.nav').classList.toggle('scrolled', window.scrollY > 50);
 });
 </script>
 
