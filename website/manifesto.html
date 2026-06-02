@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manifesto — Hestia Foundation</title>
+  <meta name="description" content="*Omnibus domus digna* — everyone deserves a dignified home. The Hestia manifesto: why housing stopped being about homes, and how we can bring it back.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    .manifesto-hero {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 120px 20px 80px;
+      background: linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
+      border-bottom: 1px solid var(--color-border);
+    }
+    .manifesto-hero h1 {
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 24px;
+      letter-spacing: -0.03em;
+    }
+    .manifesto-hero .subtitle {
+      font-size: 1.25rem;
+      color: var(--color-text-secondary);
+      font-style: italic;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .manifesto-hero .latin {
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: var(--color-accent);
+      margin-top: 32px;
+      letter-spacing: 0.05em;
+    }
+    .manifesto-body {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 80px 20px 120px;
+    }
+    .manifesto-body h2 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-top: 64px;
+      margin-bottom: 24px;
+      line-height: 1.3;
+      color: var(--color-text);
+    }
+    .manifesto-body h2:first-child {
+      margin-top: 0;
+    }
+    .manifesto-body p {
+      font-size: 1.15rem;
+      line-height: 1.75;
+      color: var(--color-text-secondary);
+      margin-bottom: 24px;
+    }
+    .manifesto-body p strong {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+    .manifesto-body blockquote {
+      border-left: 3px solid var(--color-accent);
+      padding-left: 24px;
+      margin: 40px 0;
+      font-style: italic;
+      color: var(--color-text);
+      font-size: 1.15rem;
+      line-height: 1.7;
+    }
+    .manifesto-body .divider {
+      text-align: center;
+      margin: 56px 0;
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      letter-spacing: 0.1em;
+    }
+    .manifesto-body .closing {
+      margin-top: 80px;
+      padding-top: 48px;
+      border-top: 1px solid var(--color-border);
+      text-align: center;
+    }
+    .manifesto-body .closing p {
+      font-size: 1.1rem;
+      color: var(--color-text-muted);
+    }
+    .manifesto-body .closing .claim {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--color-text);
+      font-style: italic;
+      margin: 32px 0 16px;
+    }
+    .manifesto-body .closing .latin-final {
+      font-family: var(--font-mono);
+      color: var(--color-accent);
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      margin-top: 24px;
+    }
+    @media (max-width: 640px) {
+      .manifesto-body { padding: 48px 20px 80px; }
+      .manifesto-body h2 { font-size: 1.5rem; }
+      .manifesto-body p { font-size: 1.05rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-mark">⌂</span>
+      <span class="nav-logo-text">Hestia</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="manifesto.html">Manifesto</a></li>
+      <li><a href="the-system.html">The System</a></li>
+      <li><a href="build.html">Build</a></li>
+      <li><a href="costs.html">Costs</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="lineage.html">Lineage</a></li>
+      <li><a href="blog/index.html">Blog</a></li>
+      <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank" class="nav-cta">GitHub ↗</a></li>
+    </ul>
+    <button class="nav-mobile" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  </div>
+</nav>
+
+<section class="manifesto-hero">
+  <div>
+    <h1>*Omnibus domus digna*</h1>
+    <p class="subtitle">Everyone deserves a dignified home.</p>
+    <p class="latin">Hestia Foundation · Manifesto 1.1</p>
+  </div>
+</section>
+
+<section class="manifesto-body">
+
+<h2>There is a line in the sand</h2>
+
+<p>There is a line in the sand, and we have crossed it without noticing. In much of the world today, two people earning an ordinary income can no longer afford an ordinary home. A house that once cost about two years of a single income now costs six or eight years of it. When the average person cannot afford the average home, something has quietly broken, and the breakage is not a moral failing of anyone in particular. It is what happens when a system drifts, decade by decade, until the ordinary becomes unreachable.</p>
+
+<p>This manifesto is not an accusation. It names no villain, because there is no villain to name. It is an attempt to bring reason, common sense, and arithmetic back to a problem that has spiralled beyond them. The numbers do the only pointing that needs doing.</p>
+
+<h2>The problem is too large to look away from</h2>
+
+<p>In the next twenty years, roughly three billion people will need a place to live. That is not a figure that can be solved by packing more people into the homes that already exist. It will require building, at a scale and a speed and a cost that the conventional way of building cannot meet. And it cannot be answered only by stacking people ever higher in ever-taller towers. There is a case, barely made and long overdue, for the modest single-storey home that sits lightly on the land it stands on and asks little of the materials it is made from. Not every answer is vertical.</p>
+
+<p>If the housing problem were not real, everyone would already have somewhere to live. It is real, and it grows more severe by the day. A problem this size deserves a response that is radical in ambition and conservative in method, and that is the needle this project tries to thread.</p>
+
+<h2>How we got here, honestly</h2>
+
+<p>Two hundred years ago, ordinary people built their own homes. They also burned down, cracked under snow loads, and blew apart in storms. So we wrote rules. Building codes and regulations arrived, and they made it far harder for an untrained person to build a house, and they were right to. Those rules saved lives. We have no quarrel with them. A home must not fall down, must not burn, must not poison the family inside it, and the regulations that guarantee this are not the enemy of a project like ours. They are its specification.</p>
+
+<p>But the rules had a side effect. They placed the building of a home beyond the reach of the person who would live in it, and into the hands of an industry. The ability to make shelter, the most basic human act, became something most people could only buy, never do.</p>
+
+<p>In the 1970s, thinkers like Ivan Illich and E.F. Schumacher saw this clearly. Illich described how tools and institutions can grow until they monopolise a need and reduce people to consumers of it. Schumacher argued for "production by the masses, rather than mass production," a technology, in his words, "to which everybody can gain admittance and which is not reserved to those already rich and powerful." They were right. And they were early. They were describing a solution that reality had not yet caught up to.</p>
+
+<p>Because in the 1970s, you could not both build your own home and satisfy the codes. The tools were not good enough, the knowledge was locked in trades, and the materials were not there. The vision was sound and the means were missing.</p>
+
+<h2>What changed</h2>
+
+<p>We are standing on the shoulders of giants, and the giants grew tall only recently.</p>
+
+<p>A person building today has free, on-demand video instruction for every step of the work, the "random access to learning resources" Illich could only imagine when he wrote of tapes and records. They have a nail gun that places two fasteners a second with perfect precision, work that took a skilled crew far longer sixty years ago. They have wood adhesives engineered to last a century inside a wall, and standardised, certified, engineered components stocked at every builders' merchant. The principle that ordinary people should be able to build their own homes is two centuries old. For the first time, the means exist to act on it <em>and</em> meet every rule the codes demand.</p>
+
+<p>That is the whole opportunity. Not to defy the regulations, but to finally be able to honour them without an industry standing in between.</p>
+
+<h2>What Hestia is</h2>
+
+<p>Hestia is a way to build a permanent, dignified family home from a small kit of standard, certified, off-the-shelf parts, assembled by ordinary people, for a fraction of the market price, with every drawing given away for free.</p>
+
+<p>The structural wall is a composite panel: discarded shipping pallets, bonded between two sheets of oriented strand board. It is a Structural Insulated Panel, a proven technology, with the petroleum-foam core swapped for a timber one that Europe already produces in effectively unlimited quantity. Nothing in it is invented. Nothing in it is patented. The whole thing is an arrangement of pieces that have been sitting in plain sight, assembled in a way that happens to work.</p>
+
+<p>We named the project after Hestia, the Greek goddess of the hearth, because she is the goddess of the thing we are actually trying to restore. Not the god of war or of thunder, who do little for a life, but the quiet goddess of the home, believed to be present in every household, the centre of the home both in fact and in spirit. The ancient Greeks, founding a new settlement, carried fire from the old hearth to light the new one. That is almost exactly the idea: a shared flame, passed from home to home, each one lit from the common fire and giving its light back.</p>
+
+<h2>The better question</h2>
+
+<p>The low question about housing is: how do we keep people from dying of the elements? Asked plainly, its honest answer is a shipping container, and a shipping container is not a home.</p>
+
+<p>We want to ask the better question. Not how do we shelter a body, but <strong>how much home can we make from four walls, a floor, and a roof?</strong> How wholesome, how warm, how genuinely good to live in. That is why the motto is <em>a dignified home</em>, not merely <em>a home</em>. Dignity is the whole point. Everyone deserves not just somewhere to be, but somewhere to belong, somewhere they are proud to bring a friend, somewhere a child grows up without the late-night arithmetic of rent that cannot be paid.</p>
+
+<h2>How it does not compromise</h2>
+
+<p>The hard part is that we refuse to give anything up. We want to satisfy everyone at once, and we think, for once, that it is possible.</p>
+
+<p>We want to satisfy the engineer and the insurer, so that the home earns its stamp. Every load-bearing and safety-critical part is certified and verifiable, and the critical moments of the build are signed off by professionals. We do not ask anyone to trust us; we build so that it can be proven.</p>
+
+<p>We want to satisfy nature, by using as little material as possible and giving a second life to material already destined for waste. More than half the timber in the wall is reclaimed. The pallet that could no longer circulate as a shipping pallet still has more than enough strength to be the spine of a wall, in the same way an electric-car battery no longer fit to drive a car serves for years storing energy. It is smarter to cascade a well-made thing into a new use than to shred it. And the panel is built to come apart again, to be moved, reused, or repurposed, so that at the end it need not become waste either. The circle closes at both ends.</p>
+
+<p>We want to satisfy ourselves, the people who will live there, by building the shell so cheaply and so quickly that money and energy are left over for the home itself. The frugality is not the goal. The frugality is what funds the soul of the place. Spend almost nothing on the four walls, so that everything is left for the life lived inside them.</p>
+
+<p>And we want this without a long sequence of forced steps. Conventional building is a chain of tasks that must happen in a fixed order, each waiting on the last, and most of the months are spent waiting, not working. Curing a concrete foundation can take the better part of three months; in that single window, a Hestia home could be built several times over, because it stands on ground screws and skips the wait entirely. We remove the steps that can be removed and let the rest run together, until what is left of the timeline is short. A small, capable group of people can finish the shell in roughly a fortnight.</p>
+
+<h2>You do not have to be rich, and you do not have to be an expert</h2>
+
+<p>The work is shaped so that most of it is forgiving, and the parts that are not are held by the best professional you can hire, for the few hours that decide the outcome. Because you need them only briefly, you can afford the best, and the best can find the time. Everything is documented as it is built, photographed and filmed, so that an inspector need never break open a wall to know what is inside it, and so that any question years later has an answer on record.</p>
+
+<p>This is why it can only be open-source. There is no moat here, nothing to hide, nothing to patent, and that is not a weakness, it is the entire point. The value of Hestia is that anyone can do it. You cannot charge a premium on free pallets and common board, and you should not try. Sometimes you must choose between making money and making a difference, and the thing that makes this a poor business is exactly what makes it a worthy gift. So we give it away. People can still take a small mortgage on a fifty-thousand home if they wish, but they will not need the four-hundred-thousand version that costs eight years of their life to pay for. This is, in a sense, simply turning the clock back to when a home cost a couple of years of one income, and letting modern tools do the turning.</p>
+
+<h2>The claim</h2>
+
+<p>We are making a claim, and we intend to back it with mathematics and engineering rather than ask anyone to take it on faith. The claim is that a dignified, beautiful, functioning home is now achievable for nearly everyone, and that the gap between that possibility and the world we live in is no longer a matter of physics or cost. It is a matter of putting the tools in people's hands.</p>
+
+<p>That a child deserves an education is written into the world's declaration of human rights. We believe a dignified home belongs in the same company, and that for the first time it can be more than a wish. The engineering exists. The materials exist. The knowledge is free.</p>
+
+<div class="closing">
+  <p class="claim">*Omnibus domus digna.*</p>
+  <p>Everyone deserves a dignified home. We think we can show that everyone can have one.</p>
+  <p class="latin-final">— The Hestia Foundation</p>
+</div>
+
+<div class="divider">◆ ◆ ◆</div>
+
+<p style="text-align:center; font-size:0.95rem; color:var(--color-text-muted);">
+  This manifesto makes promises. The accompanying <a href="the-system.html" style="color:var(--color-accent);">Technical Specification</a> keeps them: the dimensions, the methods, the components, the costs, and the engineering behind every claim made here. The manifesto is the why. The specification is the how, and the proof.
+</p>
+
+</section>
+
+<footer style="margin-top:0;">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">⌂ Hestia</div>
+        <p>An open-source home-building platform for affordable, reversible, beautiful, grid-independent housing.</p>
+        <div class="footer-license">
+          <span class="license-badge">CC BY-SA 4.0</span>
+          <span>All designs, data, and documentation</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Project</h4>
+        <ul>
+          <li><a href="manifesto.html">Manifesto</a></li>
+          <li><a href="the-system.html">The System</a></li>
+          <li><a href="build.html">Build Protocol</a></li>
+          <li><a href="costs.html">Cost Breakdown</a></li>
+          <li><a href="research.html">Research & Data</a></li>
+          <li><a href="lineage.html">Lineage</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">GitHub Repository</a></li>
+          <li><a href="https://www.wikihouse.cc/" target="_blank">WikiHouse</a></li>
+          <li><a href="https://www.opensourceecology.org/gvcs/" target="_blank">Global Village Construction Set</a></li>
+          <li><a href="#">CAD Files (Coming)</a></li>
+          <li><a href="#">Build Manual (Coming)</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@hestiafoundation.org">info@hestiafoundation.org</a></li>
+          <li>Lagos, Algarve, Portugal</li>
+          <li><a href="https://github.com/sebastianbrosche/hestiafoundation" target="_blank">github.com/sebastianbrosche/hestiafoundation</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Hestia Foundation. All wrongs reserved. Open source forever.</p>
+      <p class="footer-quote">"A beautiful family home a single parent can afford. And build."</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+window.addEventListener('scroll', () => {
+  document.querySelector('.nav').classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+</body>
+</html>
